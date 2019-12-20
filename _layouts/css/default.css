@@ -2,6 +2,7 @@
   overflow: hidden;
   background-color: #333;
   padding: auto;
+  margin-bottom: 30 px;
 }
 
 .nav-bar a {
@@ -9,5 +10,5 @@
   text-align:center;
   text-decoration: none;
   padding: 14px 16px;
-  font-size: 24pt
+  font-size: 24pt;
 }
