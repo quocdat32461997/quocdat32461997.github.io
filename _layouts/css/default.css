@@ -1,6 +1,7 @@
 .nav-bar {
   overflow: hidden;
   background-color: #333;
+  padding: auto;
 }
 
 .nav-bar a {
@@ -8,4 +9,5 @@
   text-align:center;
   text-decoration: none;
   padding: 14px 16px;
+  font-size: 24pt
 }
