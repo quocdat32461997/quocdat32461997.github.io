@@ -7,14 +7,28 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" type="text/css" href="./_layouts/css/default.css">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
+
+    <style>
+      nav-bar {
+        overflow: hidden;
+        background-color: #333;
+        margin-bottom: 30 px;
+      }
+      nav-bar a {
+        float: left;
+        text-align:center;
+        text-decoration: none;
+        padding: 14px 16px;
+        font-size: 24pt;
+      }
+    </style>
   </head>
   <body>
     <div class="wrapper">
-      <div class = "nav-bar">
+      <div style = " overflow: hidden; margin-bottom: 30"class = "nav-bar">
         <a class = "home" href = "https://quocdat32461997.github.io"> Home </a>
         <a class = "research" href = "#research"> Research </a>
       </div>
