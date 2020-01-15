@@ -24,8 +24,8 @@ layout: default
 
 <section class = "eda">
 
-	<h4> Perform Data Explanatory Data Analysis </h4>
 	<section id = "inspect_features">
+		<h4> Perform Data Explanatory Data Analysis </h4>
 		<p>
 			Obviously, the given dataset contains: <br>
 				* Finding labels - Disease name: these labels would be encoded to classes for multi-binary classification <br>
@@ -38,9 +38,9 @@ layout: default
 		<img src = "images/data_stats.png"
 	</section>
 
-	<h4>Feature Engineering</h4>
 	<section id = "encode classes of diseases">
-		<p> <br> Encode classes of 14 types of diseases as following: </p>
+		<h4>Feature Engineering</h4>
+		<p> Encode classes of 14 types of diseases as following: </p>
 		<ul>
 			<li> Cardiomegaly - 0 </li>
 			<li> Emphysema - 1 </li>
@@ -59,12 +59,12 @@ layout: default
 		</ul>
 	</section>
 
-	<h4>Build data loader</h4>
 	<section id = "image_processing">
+		<h4>Build data loader</h4>
 		<p>
 			In Image Processing, standardizing images is a necessary technique to prevent
-			over-explosion of features. When taking standardization, we look for the standard normal distribution within images. <br>
-			Standardizing is implemented within the customized dataloader by using <u>Sequence</u> class from Keras and <u>process_input</u> function desgined by mobilenet_v2. <br>
+			over-explosion of features. When taking standardization, we look for the standard normal distribution within images.
+			Standardizing is implemented within the customized dataloader by using <u>Sequence</u> class from Keras and <u>process_input</u> function desgined by mobilenet_v2. <br><br>
 			The dataloder return 2 objects: batches of images and batches of labels (disease classes).
 		</p>
 		<img src = "images/data_loader_w_standardizing.png"/>
