@@ -1,73 +1,19 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+---
+layout: default
+---
+<h1> Transfer Learning for Chest Disease Detection </h1>
 
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
+<p>
+	Sep., 2019 - I and 3 other students joined an AI Medical Hackathon
+	held by Mr. Tarry Singh and Cuare AI. This is to show steps we made
+	during the competition.
+</p>
 
-    <style>
-      .nav-bar {
-        overflow: hidden;
-        margin-bottom: 30 px;
-      }
-      .nav-bar a {
-        float: left;
-        text-align:center;
-        text-decoration: none;
-        padding: 14px 16px;
-        padding-left: 0;
-        font-size: 20pt;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="wrapper">
-      <div style = " overflow: hidden; margin-bottom: 30"class = "nav-bar">
-        <a class = "home" href = "https://quocdat32461997.github.io"> Home </a>
-        <a class = "research" href = "https://quocdat32461997.github.io/research.html"> Research </a>
-      </div>
-      <section>
-
-      <h1> Transfer Learning for Chest Disease Detection </h1>
-
-			<p>
-				Sep., 2019 - I and 3 other students joined an AI Medical Hackathon
-				held by Mr. Tarry Singh and Cuare AI. This is to show steps we made
-				during the competition.
-			</p>
-
-			<h3>
-				Problem: X-ray scans of chest areas have been used to detect cancer and
-				other kinds of diseases within Chest area. However, the diagnosis based
-				on the X-ray scans by humans is time-consuming. Hence, the question is
-				to develop Machine Learning algorithm to quickly identify diseases on
-				X-Ray scans.
-				<img src = "images/x-ray-scan.png"/>
-			</h3>
-
-      </section>
-      <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="https://github.com/quocdat32461997"> Dat Q. Ngo</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    {% if site.google_analytics %}
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', '{{ site.google_analytics }}', 'auto');
-      ga('send', 'pageview');
-    </script>
-    {% endif %}
-  </body>
-</html>
+<h3>
+	Problem: X-ray scans of chest areas have been used to detect cancer and
+	other kinds of diseases within Chest area. However, the diagnosis based
+	on the X-ray scans by humans is time-consuming. Hence, the question is
+	to develop Machine Learning algorithm to quickly identify diseases on
+	X-Ray scans.
+	<img src = "images/x-ray-scan.png"/>
+</h3>
