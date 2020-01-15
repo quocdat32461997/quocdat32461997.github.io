@@ -22,15 +22,49 @@ layout: default
 	<img src = "images/x-ray-scan.png"/>
 </p>
 
-<section>
+<section class = "eda">
 	<h4> Performed Data Explanatory Data Analysis </h4>
-	<br>
-	<section>
-		<p>
+	<section id = "inspect_features">
+		<p> <pr>
 			Obviously, the given dataset contains: <br>
 				Finding labels - Disease name: these labels would be encoded to classes for multi-binary classification
-				Other features: not considered as out of scope of this blog</p>
-
+				Other features: not considered as out of scope of this blog
+		</pr> </p>
 		<img src = "images/data_inspect.png"
+	</section>
+
+	<section id = "data_stats">
+		<p>One conclusion here is the meadian age of all patients is 48.47. Obviously, if look at max row, we observed the odd age of 414 which would be changed to 100</p>
+		<img src = "images/data_stats.png"
+	</section>
+
+	<section id = "encode classes of diseases">
+		<p> Encode classes of 14 types of diseases as following: </p>
+		<ul>
+			<li> Cardiomegaly - 0 </li>
+			<li> Emphysema - 1 </li>
+			<li> Effusion - 2 </li>
+			<li> Hernia - 3 </li>
+			<li> Infiltration - 4 </li>
+			<li> Mass - 5 </li>
+			<li> Nodule - 6 </li>
+			<li> Atelectasis - 7 </li>
+			<li> Pneumothorax - 8 </li>
+			<li> Pleural_Thickening - 9 </li>
+			<li> Pneumonia - 10 </li>
+			<li> Fibrosis - 11 </li>
+			<li> Edema - 12 </li>
+			<li> Consolidation - 13 </li>
+		</ul>
+	</section>
+
+	<section id = "image_processing">
+		<p>
+			In Image Processing, standardizing images is a necessary technique to prevent
+			over-explosion of features. When taking standardization, we look for the standard normal distribution within images. <br>
+			Standardizing is implemented within the customized dataloader by using <u>Sequence</u> class from Keras and <u>process_input</u> function desgined by mobilenet_v2. <br>
+			The dataloder return 2 objects: batches of images and batches of labels (disease classes).
+		</p>
+		<img src = "images/data_loader_w/_standardizing.png"/>
 	</section>
 </section>
