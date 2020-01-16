@@ -67,18 +67,41 @@ layout: default
         <b> Standardizing </b> is another important task to prevent weight explosion.
         Statistically, this is for easy comparision between images, which directly helps gradient descent
         constantly move to minimum point and minimize loss function. Standardizing can be done by steps:
-        <ul>
-          <li>Calculating means of images and Standard Deviation (SD) of images</li>
-          <li>Subtract the calculated image means from images</li>
-          <li>Finally, divide the above difference by Standard Deviation</li>
-          <li>Final results are images standardized to have a mean of 0 and standard deviation of 1</li>
-        </ul>
+        <img src = "statics/equivalent_purchase_level/standardizing.png"/>
+        Standardized images have have a mean of 0 and standard deviation of 1
       </p>
     </section>
 
   </section>
+
   <section id="deep_clustering_model">
     <section id = "overview of deep clustering">
+      <h3> What is Image Clustering? What are challenges?</h3>
+      <p>
+        Image Clustering is defined as a problem of classifying/grouping images into similar groups.
+        <a href = "https://scikit-learn.org/stable/modules/clustering.html"> Clustering
+         algorithms (e.g. K-Means and Hierarchical Clustering)</a> are found
+        good in clustering objects based on features. However, features are
+        unknown because they are embedded within images. Hence, <a href = "https://towardsdatascience.com/building-a-convolutional-neural-network-cnn-in-keras-329fbbadc5f5">
+        Convolutional Neural Networks (CNN)</a> is well-known for its power in extracing
+        image features, which could be fed to Clustering algorithms to cluster images.
+      </p>
+    </section>
+
+    <section id = "deep_embedding_clustering">
+      <h3> Deep Embedding Clustering (DEC) </h3>
+      <p>
+        DEC is a Deep Learning model built based on the Variational Autoencoder (VAE) and Vania Neural Nets (NN).
+        VAE is the symmetrical autoencoder which deep layers are Vanila Neural Nets (Fully Connected Layers).
+        Neural Nets are designed based on the network of neurons in humans brain.
+        <br>
+        More information can be found below:
+        <ul>
+          <li> <a href = "https://arxiv.org/abs/1511.06335"> Deep Embedding Clustering</a> </li>
+          <li> <a href = ""> Variational Autoencoder</a> </li>
+          <li> <a href = ""> Neural Networks / Fully Connectd Layers </li>
+        </ul>
+      </p>
     </section>
   </section>
 </section>
