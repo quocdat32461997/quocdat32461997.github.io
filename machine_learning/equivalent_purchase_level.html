@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-<section>
   <h1 id = "title">Deep Image Clustering - Equivalent Purchase Level </h1>
   <h3 id = "problem_statement">
     This is the challenge/problem by eBay that many similar
@@ -107,7 +106,31 @@ layout: default
         o perform well MNIST and other datasets. Also, I will just show DEC and
         another in-development model in this blog because I want to ace the Kaggel competition.
       </p>
-
-
   </section>
-</section>
+
+  <section id = "training">
+    <h3> Data Generator from Database </h3>
+    <p> Leverage <a href = "https://keras.io/preprocessing/image/">Image Data Generator and flow_from_directory given by Keras.</a> </p>
+    <img src = "statics/equivalent_purchase_level/data_generator.png"/>
+
+    <h3> Build DEC </h3>
+    <img src = "statics/equivalent_purchase_level/build_dec.png"/>
+
+    <h3> Training </h3>
+    <p> Use fit_generator as it goes along with Image Data Generator </p>
+    <img src = "statics/equivalent_purchase_level/training.png"/>
+  </section>
+
+  <section id = "discussion">
+    <p>
+      DEC was developed back in 2015, simple and easy to implement.
+      The total time to train an epoch is approximately 4~5 hours. Hence, to train until convergence,
+      it may take 15 days (due to bottleneck between CPU and GPU),
+      which urges us to move to Deep Learning Spark Library to accelerate the training speed.
+      <br><br>
+      My teammates and I are researching other models and implementing Spark to
+      accelerate the training speed. Updates coming later.
+    </p>
+  </section>
+
+  <h2 style = "align: center"> Contiuing </h2>
