@@ -28,19 +28,24 @@ layout: default
 
   <section id = "inpsect_dadta">
     <h3>Data Inspection</h3>
-    <img src="statics/data_shape.png"/>
+    <img src="statics/equivalent_purchase_level/data_shape.png"/>
     <br>
-    <img src="statics/first_look.png"/>
+    <img src="statics/equivalent_purchase_level/first_look.png"/>
     <p>
       Look at data shape, my team and I received 1002275 listings consisting of images and captions.
       <br><br>
       Rough analysis:
-      <ul style = "list-style-type: none;">
+      <ul style = "">
         <li>category: type of listing</li>
         <li>title: name or title of listing. This is significant if clustering listings by text</li>
         <li>subtitle: double that subtitle has all NaN values</li>
-        <li>gallery_url / picture_url: urls to images of the listing</li>
+        <li>gallery_url / picture_url: urls to images of the listing. Some work need done here to parse and get all images</li>
+        <li>attributes: properties of products. Also need parsing into proper formats</li>
+        <li>description_in_base64: attributes in html</li>
+        <li>index: index</li>
       </ul>
+      As a Unsupervised Learning problem, no much statistics could be performed here.
+      <img src = "statics/equivalent_purchase_level/category.png"/>
     </p>
   </section>
 </section>
