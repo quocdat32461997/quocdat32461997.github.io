@@ -91,16 +91,22 @@ layout: default
     <section id = "deep_embedding_clustering">
       <h3> Deep Embedding Clustering (DEC) </h3>
       <p>
-        DEC is a Deep Learning model built based on the Variational Autoencoder (VAE) and Vania Neural Nets (NN).
+        DEC is a Deep Learning model that its half is built based on the Variational Autoencoder (VAE) and Vania Neural Nets (NN).
         VAE is the symmetrical autoencoder which deep layers are Vanila Neural Nets (Fully Connected Layers).
         Neural Nets are designed based on the network of neurons in humans brain.
+        Thousands of features within images are extracted and reduced into few hundreds (Dimensionality Reduction) by VAE
+        to fed them into Clustering algorithms. This step is necessary because Clustering algorithms
+        have troubles with large numbers of features.
         <br>
         More information can be found below:
         <ul>
           <li> <a href = "https://arxiv.org/abs/1511.06335"> Deep Embedding Clustering</a> </li>
-          <li> <a href = ""> Variational Autoencoder</a> </li>
-          <li> <a href = ""> Neural Networks / Fully Connectd Layers </li>
+          <li> <a href = "https://towardsdatascience.com/intuitively-understanding-variational-autoencoders-1bfe67eb5daf"> Variational Autoencoder</a> </li>
+          <li> <a href = "https://towardsdatascience.com/understanding-neural-networks-19020b758230"> Neural Networks / Fully Connectd Layers </li>
+          <li> <a href = "https://towardsdatascience.com/autoencoder-on-dimension-reduction-100f2c98608c"> Dimensionality Reduction </a> </li>
         </ul>
+        <br><br>
+        <b>Why I used DEC?</b>
       </p>
     </section>
   </section>
