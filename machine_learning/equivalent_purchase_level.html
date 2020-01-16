@@ -48,4 +48,29 @@ layout: default
       <img src = "statics/equivalent_purchase_level/category.png"/>
     </p>
   </section>
+
+  <section id = "preprocssing">
+    <section id = "why_processing">
+      <h3>Why preprocessing?</h3>
+      <p>
+        In academic projets, datasets (e.g. Titanic, Iris) are preprocessed and cleaned for studnets. However, the proper data is note
+        is not the fact in reality. Noise and inconsistent image format (different channels/colors and different size) are always there.
+      </p>
+      <img src = "statics/equivalent_purchase_level/samples.png"/>
+      <p>
+        <b> Inconsistent image size - </b> As you can see, no image has the same size (white blank filling).
+        Hence, need to resize them into a consistent image size.
+        <br>
+        <b> Standardizing </b> is another important task to prevent weight explosion.
+        Statistically, this is for easy comparision between images, which directly helps gradient descent
+        constantly move to minimum point and minimize loss function. Standardizing can be done by steps:
+        <ul>
+          <li>Calculating means of images and Standard Deviation (SD) of images</li>
+          <li>Subtract the calculated image means from images</li>
+          <li>Finally, divide the above difference by Standard Deviation</li>
+          <li>Final results are images standardized to have a mean of 0 and standard deviation of 1</li>
+        </ul>
+      </p>
+    </section>
+  </section>
 </section>
