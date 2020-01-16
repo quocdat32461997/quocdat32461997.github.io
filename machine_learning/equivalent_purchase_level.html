@@ -89,6 +89,9 @@ layout: default
         Thousands of features within images are extracted and reduced into few hundreds (Dimensionality Reduction) by VAE
         to fed them into Clustering algorithms. This step is necessary because Clustering algorithms
         have troubles with large numbers of features.
+        <br><br>
+        Loss function is Mean-Squared-Error and Stochastic Gradient Descent optimizer.
+
         <img src = "statics/equivalent_purchase_level/dec.png"/>
         <br>
         More information can be found below:
@@ -110,7 +113,7 @@ layout: default
 
   <section id = "training">
     <h3> Data Generator from Database </h3>
-    <p> Leverage <a href = "https://keras.io/preprocessing/image/">Image Data Generator and flow_from_directory given by Keras.</a> </p>
+    <p> Leverage <a href = "https://keras.io/preprocessing/image/"> <i> Image Data Generator and flow_from_directory given by Keras. </i> </a> </p>
     <img src = "statics/equivalent_purchase_level/data_generator.png"/>
 
     <h3> Build DEC </h3>
@@ -122,6 +125,7 @@ layout: default
   </section>
 
   <section id = "discussion">
+    <h3> Conclusion </h3>
     <p>
       DEC was developed back in 2015, simple and easy to implement.
       The total time to train an epoch is approximately 4~5 hours. Hence, to train until convergence,
@@ -133,4 +137,4 @@ layout: default
     </p>
   </section>
 
-  <h2 style = "align: center"> Contiuing </h2>
+  <h2 style = "align: center"> Continuing </h2>
