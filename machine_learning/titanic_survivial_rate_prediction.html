@@ -14,10 +14,29 @@ layout: default
 
   <section id = "data_inspection">
     <h4> Inspect data </h4> <br>
-      <p>
-        First look into data
-        <img href = "images/first_look.png"/>
-      </p>
+    <p>
+      <b> First look into data </b>
+      <img href = "images/first_look.png"/>
+      Literally, the first column is the row index. This column could be ignored.
+      Other columns/features that I consider as significant:
+      <ul style = "list-style-type: none;">
+        <li>Survived - the boolean value indicating if the passenger survies</li>
+        <li>Pclass - ticket class</li>
+        <li>Sex - gender (It is believed that women had higher priority to get on the rescue boats)</li>
+        <li>Age - how old is he/she? (Children and elders usually get on rescue boats earlier)</li>
+        <li>SibSP - Number of siblings (Possible) </li>
+        <li>Parch - number of parents/children (Householders are supposed to have higher survival rate)</li>
+        <li>Fare - how much tickets were paid (Fare is correlated with Pclass but not guaranteed) </li>
+        <li>Embarked - The start location (Some people leaves may get off the trip before the sink) </li>
+      </ul>
+
+      <b>
+        Look at statistics of data <br>
+        This step is important to inspect the Guassian data distribution (expected to see this)
+      </b>
+      <img href = "images/statistics_look.png"/>
+
+    </p>
 
     <p>
     </p>
