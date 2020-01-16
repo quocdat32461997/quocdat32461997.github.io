@@ -3,26 +3,44 @@ layout: default
 ---
 <section>
   <h1 id = "title">Deep Image Clustering - Equivalent Purchase Level </h1>
-  <h4 id = "problem_statement">
+  <h3 id = "problem_statement">
     This is the challenge/problem by eBay that many similar
     listings may have different prices. This fact poses
     inconvenience to eBay's customers and to me as well when shopping.
     Hence, I want to solve this challenge by developing Deep Clustering algorithm
     to cluster same products together.
-  </h4>
+  </h3>
   <p>
     <b>Techs used: </b> Python, Keras, Nummpy, Pandas, Matplotlib, Ray - Parallel Processing,
      OpenCV, requests (RESTful API module), AMD GPU
   </p>
 
   <section id = "challenges">
-    <h4>Challenges</h4>
+    <h3>Challenges</h3>
     <p>
       A big challenge of <b>Unsupervised Image Clustering</b> is no pre-trained models
       specified for clustering images. And Unsupervised Image Clustering is difficult
       as natural due to the need of huge dataset to learn representatives of images. Another
       challenge is the big dataset of <b>1 million images and corresponding captions</b>
       (upto 1 TB) given by eBay for training Clustering models.
+    </p>
+  </section>
+
+  <section id = "inpsect_dadta">
+    <h3>Data Inspection</h3>
+    <img src="statics/data_shape.png"/>
+    <br>
+    <img src="statics/first_look.png"/>
+    <p>
+      Look at data shape, my team and I received 1002275 listings consisting of images and captions.
+      <br><br>
+      Rough analysis:
+      <ul style = "list-style-type: none;">
+        <li>category: type of listing</li>
+        <li>title: name or title of listing. This is significant if clustering listings by text</li>
+        <li>subtitle: double that subtitle has all NaN values</li>
+        <li>gallery_url / picture_url: urls to images of the listing</li>
+      </ul>
     </p>
   </section>
 </section>
