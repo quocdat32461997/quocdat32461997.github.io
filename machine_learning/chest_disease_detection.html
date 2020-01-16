@@ -19,7 +19,7 @@ layout: default
 	X-Ray scans.
 
 	<br>
-	<img src = "images/x-ray-scan.png"/>
+	<img src = "statics/x-ray-scan.png"/>
 </p>
 
 <section class = "eda">
@@ -31,11 +31,11 @@ layout: default
 				* Finding labels - Disease name: these labels would be encoded to classes for multi-binary classification <br>
 				* Other features: not considered as out of scope of this blog
 		</p>
-		<img src = "images/data_inspect.png"
+		<img src = "statics/data_inspect.png"
 	</section>
 	<section id = "data_stats">
 		<p> <br> One conclusion here is the meadian age of all patients is 48.47. Obviously, if look at max row, we observed the odd age of 414 which would be changed to 100</p>
-		<img src = "images/data_stats.png"
+		<img src = "statics/data_stats.png"
 	</section>
 
 	<section id = "encode classes of diseases">
@@ -68,12 +68,12 @@ layout: default
 			Standardizing is implemented within the customized dataloader by using <u>Sequence</u> class from Keras and <u>process_input</u> function desgined by mobilenet_v2. <br><br>
 			The dataloder return 2 objects: batches of images and batches of labels (disease classes).
 		</p>
-		<img src = "images/data_loader_w_standardizing.png"/>
+		<img src = "statics/data_loader_w_standardizing.png"/>
 	</section>
 
 	<section id = "transfer_learning">
 		<h4> Leverage Transfer Learning: VGG-16 pre-trained model by Google </h4>
-		<img src = "images/vgg_16.png"/>
+		<img src = "statics/vgg_16.png"/>
 
 		<br>
 		<h4> Training </h4>
@@ -83,7 +83,7 @@ layout: default
 			<li> Loss function: Binary Corres-entropy</li>
 			<li> Optimizer: Adam (Adam is a general and best-performing optimizer in usual cases)</li>
 		</ul>
-		<img src = "images/training_result.png"/>
+		<img src = "statics/training_result.png"/>
 	</section>
 
 	<br>
