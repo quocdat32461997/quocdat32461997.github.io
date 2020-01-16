@@ -50,14 +50,12 @@ layout: default
   </section>
 
   <section id = "preprocssing">
-    <section id = "why_processing">
       <h3>Why preprocessing?</h3>
       <p>
         In academic projets, datasets (e.g. Titanic, Iris) are preprocessed and cleaned for studnets. However, the proper data is note
         is not the fact in reality. Noise and inconsistent image format (different channels/colors and different size) are always there.
       </p>
-    </section>
-    <section id = "preprocessing_steps">
+
       <h3>How to preprocess them?</h3>
       <img src = "statics/equivalent_purchase_level/samples.png"/>
       <p>
@@ -70,25 +68,20 @@ layout: default
         <img src = "statics/equivalent_purchase_level/standardizing.png"/>
         Standardized images have have a mean of 0 and standard deviation of 1
       </p>
-    </section>
-
   </section>
 
   <section id="deep_clustering_model">
-    <section id = "overview of deep clustering">
       <h3> What is Image Clustering? What are challenges?</h3>
       <p>
         Image Clustering is defined as a problem of classifying/grouping images into similar groups.
         <a href = "https://scikit-learn.org/stable/modules/clustering.html"> Clustering
          algorithms (e.g. K-Means and Hierarchical Clustering)</a> are found
         good in clustering objects based on features. However, features are
-        unknown because they are embedded within images. Hence, <a href = "https://towardsdatascience.com/building-a-convolutional-neural-network-cnn-in-keras-329fbbadc5f5">
-        Convolutional Neural Networks (CNN)</a> is well-known for its power in extracing
+        unknown because they are embedded within images. <a href = "https://machinelearningmastery.com/what-is-deep-learning/">
+        Deep Learning</a> is well-known for its power in extracing
         image features, which could be fed to Clustering algorithms to cluster images.
       </p>
-    </section>
 
-    <section id = "deep_embedding_clustering">
       <h3> Deep Embedding Clustering (DEC) </h3>
       <p>
         DEC is a Deep Learning model that its half is built based on the Variational Autoencoder (VAE) and Vania Neural Nets (NN).
@@ -97,6 +90,7 @@ layout: default
         Thousands of features within images are extracted and reduced into few hundreds (Dimensionality Reduction) by VAE
         to fed them into Clustering algorithms. This step is necessary because Clustering algorithms
         have troubles with large numbers of features.
+        <img src = "statics/equivalent_purchase_level/dec.png"/>
         <br>
         More information can be found below:
         <ul>
@@ -105,9 +99,15 @@ layout: default
           <li> <a href = "https://towardsdatascience.com/understanding-neural-networks-19020b758230"> Neural Networks / Fully Connectd Layers </li>
           <li> <a href = "https://towardsdatascience.com/autoencoder-on-dimension-reduction-100f2c98608c"> Dimensionality Reduction </a> </li>
         </ul>
-        <br><br>
-        <b>Why I used DEC?</b>
       </p>
-    </section>
+
+      <h3> Why I used DEC? </h3>
+      <p>
+        DEC is a simple Deep Learning model to implement and training. It was proven t
+        o perform well MNIST and other datasets. Also, I will just show DEC and
+        another in-development model in this blog because I want to ace the Kaggel competition.
+      </p>
+
+
   </section>
 </section>
