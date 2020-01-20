@@ -21,14 +21,20 @@ However, I choose to talk about this algorithm because it is a good example to t
     histograms use vertical axis to denote independent variables and horizontal axis to denote dependent varibles. In other words, histograms
     use columns to denote the quantities of groups in the horizontal axis.
   </h5>
-  <p>
+  <p id = "explain_hist">
     For instance, in the graph below, the histogram shows the frequency/distribution of iPhone sales from 2007 to 2018.
     <img src = "statics/histogram_example.png"/>
     Obviously, this histogram has iPhone sales in millions of units as the vertical axis and years as the horizontal axis. It is easy to point out the histogram shows the increasing
     pattern of iPhone sales. <b> Now you get Histogram in general. How about Histogram in Computer Vision?</b>
   </p>
-  <p>
-    <img src = "statics/hist_before.png"/>
-    <img src = "statics/hist_after.png"/>
+  <p id = "hist_in_computer_vision">
+    <img src = "statics/hist_bef.png"/>
+    <b>Histogram Example of an Image</b> <br> <br>
+
+    In Computer Vision, every image is composed of pixels that every color of pixels ranges from 0 to 255 (0 is darkesst and 255 is brightest).
+    A color mode of images are RGB (e.g. 3 color channels of Reg-Green-Blue). Now, look at the histogram of the above gray-scale image, the vertical axis represents
+    the number of pixels; and the horizontal axis represetns the gray color brightness (0 is black and 255 is white).
+    The histogram has the bell shape that most of red columns are placed in center betweeen 150 and 200, which implies that pixels in the image are not clearly different in colors.
+    This is true that the contrast in the corresponding image is not clear. 
   </p>
 </section>
