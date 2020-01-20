@@ -37,11 +37,28 @@ However, I choose to talk about this algorithm because it is a good example to t
     the color frequency (histogram) must be stretched out so that the colors of pixels are apart from others. In other words, pixels will have clearly different colors.
     <br>
     <ul>
-      <li><b>Linear Scaling</b> - a basic method to stretch the histogram based on the smallest and largest colors that the frequency lies on. Hence, this method may not work when
-        the histogram has extreme outliners. One solution is to remove the outliners which are not preffered because engineers want to reserve all pixels.</li>
-      <li><b>Histogram Equalization</b> - a better method to stretch out the histogram based on the cumulate histogram. </li>
+      <li>
+        <b>Linear Scaling</b> - a basic method to stretch the histogram by mapping the smallest and largest colors to 0 and 255 respectively. Hence, this method may not work when
+        the histogram has extreme outliners. One solution is to remove the outliners which are not preffered because engineers want to reserve all pixels.
+        <img src = "statics/linear_scaling_formula.png"/>
+      </li>
+      <li><b>Histogram Equalization</b> - a better method to stretch out the histogram based on the cumulate histogram. More details can be found <a href = "https://www.math.uci.edu/icamp/courses/math77c/demos/hist_eq.pdf"> here. </a> </li>
     </ul>
+  </p>
 
-    <img src = "statics/hist_after.png"/>
+  <h3> Histogram Equalization </h3>
+  <img src = "statics/hist_after.png"/>
+  <p>
+    <b> Histogram and Image sample after Histogram Equalization</b>
+    <br> <br>
+    <b> Steps to perform Histogram Equalization </b>
+    <ul>
+      <li> Build Histogram that could be done by mapping frequency of pixel colors to a dictionary that keys are colors and values are the pixels belong to the color.</li>
+      <li> Build the Cummulative Histogram (CH) by adding the previous color frequency for the next one and so on.</li>
+      <li> Calculate the Normalized Cummulative Histogram (NCH) by multiplying CH with the coefficient: <br>
+        K / (2 * N) that K is the possible colors (usually from 0 to 255) and N is the image size</li>
+      <li> Compute the floor of the NCH to the nearest integer</li>
+    </ul>
+    <img src = "statics/hist_eq_formula.png"/>
   </p>
 </section>
