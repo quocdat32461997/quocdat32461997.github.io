@@ -55,7 +55,10 @@ However, I choose to talk about this algorithm because it is a good example to t
     <b> Steps to perform Histogram Equalization </b>
     <ul>
       <li> Build Histogram that could be done by mapping frequency of pixel colors to a dictionary that keys are colors and values are the pixels belong to the color.</li>
-      <li> Build the Cummulative Histogram (CH) by adding the previous color frequency for the next one and so on.</li>
+      <li>
+        Build the Cummulative Histogram (CH) by adding the previous color frequency for the next one and so on.
+        <i> f(i) </i> is the cummalative histogram.
+      </li>
       <li> Calculate the Normalized Cummulative Histogram (NCH) by multiplying CH with the coefficient: <br>
         K / (2 * N) that K is the possible colors (usually from 0 to 255) and N is the image size</li>
       <li> Compute the floor of the NCH to the nearest integer</li>
