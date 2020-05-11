@@ -11,18 +11,21 @@ layout: default
 <p class = 'problem'>
 	<h4>Problem: </h4>
 	Intente Detection problem belongs to the Natural Language Understanding domain. This problem have been considered and solved by Classification solutions, e.g. DiagFlow using BERT to classify a give utterance to a predefined intent class. Classification solutions has shown its power in classifying intents with accuracy above 90%. However, it's limit is the list of predefined-intent classes, which may require huge effort and time into prepareing truth data. Manually labeling intents for each utterance is a time-consuming and labor-consuming task that not all companies or scientists could do.  
-	<br>
+	<br><br>
 	Example: 
-		Utterance: I want to cancel payment, now please. 
-		Intent: cancen payment
+		<b>Utterance:</b> I want to cancel payment, now please. 
+		<br>
+		<b>Intent:</b> cancen payment
+	<br><br>
 	<b>Tech used: </b> VueJS, NodeJS, SQL, RESTful API, Tensorflow/Keras
+	<br>
 	<b> NLP terms in use: </b> Glove Embeddings, Tokenizer, Bidirectional Long-Short-Term-Memory (Bi-LSTM), Multi-Head Attention (MHA), and Conditional Random Field 
 </p>
 
 <section class = "solution">
 	<h4>Solution: </h4>
 	Our proposed solution is to develop a web application which archiecture consists of 3 separate RESTful API servers: UI - Backend/Database - AI. This design is to focus on the communication interface among servers which allows independent development, easy maintenance, and minimum changes in neighboring modules.
-	<img src = 'statics/itt/intent_detection.png'/>
+	<img src = 'statics/itt/intent_architecture.png'/>
 	<br>
 	Our core AI-NLP section is built around 2 separate models named: Potential Intents and True Intents models for generating potential intents and finalizing correct intents respectively. Potential Intents model bases on Bidirectional Long-Short-Term-Memory (Bi-LSTM) and Conditional Random Field (CRF); and True Intents model bases on Multi-Layer-Perceptron model. The combination of these 2 modules achieves the intent detection at accuracy of 75%. 
 	<section id = "data_stats">
