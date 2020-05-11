@@ -22,7 +22,7 @@ layout: default
 </section>
 
 <p class = 'problem'>
-	<h4>Problem: </h4>
+	<h2>Problem: </h2>
 	Intente Detection problem belongs to the Natural Language Understanding domain. This problem have been considered and solved by Classification solutions, e.g. DiagFlow using BERT to classify a give utterance to a predefined intent class. Classification solutions has shown its power in classifying intents with accuracy above 90%. However, it's limit is the list of predefined-intent classes, which may require huge effort and time into prepareing truth data. Manually labeling intents for each utterance is a time-consuming and labor-consuming task that not all companies or scientists could do.  
 	<br><br>
 	Example: 
@@ -36,18 +36,18 @@ layout: default
 </p>
 
 <section class = "solution">
-	<h4>Solution: </h4>
+	<h2>Solution: </h2>
 	Our proposed solution is to develop a web application which archiecture consists of 3 separate RESTful API servers: UI - Backend/Database - AI. This design is to focus on the communication interface among servers which allows independent development, easy maintenance, and minimum changes in neighboring modules.
 	<img src = "statics/itt/itt_architecture.png"/>
 	<br>
 	Our core AI-NLP section is built around 2 separate models named: Potential Intents and True Intents models for generating potential intents and finalizing correct intents respectively. Potential Intents model bases on Bidirectional Long-Short-Term-Memory (Bi-LSTM) and Conditional Random Field (CRF); and True Intents model bases on Multi-Layer-Perceptron model. The combination of these 2 modules achieves the intent detection at accuracy of 75%. 
 
 	<section id = "Web application">
-		<h4> Screen shot of our product </h4>
+		<h3> Screen shot of our product </h3>
 		<img src = "statics/itt/web_app.png"/>
 
 		<br> <br>
-		<h4> Screen shot of a intent-detected sample </h4>
+		<h3> Screen shot of a intent-detected sample </h3>
 		<img src = "statics/itt/intent_detection_sample.png"/>
 	</section>
 </section>
