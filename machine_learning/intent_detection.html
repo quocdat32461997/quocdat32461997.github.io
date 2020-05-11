@@ -21,7 +21,7 @@ layout: default
     </p>
 </section>
 
-<p class = 'problem'>
+<section class = 'problem'>
 	<h2>Problem: </h2>
 	Intente Detection problem belongs to the Natural Language Understanding domain. This problem have been considered and solved by Classification solutions, e.g. DiagFlow using BERT to classify a give utterance to a predefined intent class. Classification solutions has shown its power in classifying intents with accuracy above 90%. However, it's limit is the list of predefined-intent classes, which may require huge effort and time into prepareing truth data. Manually labeling intents for each utterance is a time-consuming and labor-consuming task that not all companies or scientists could do.  
 	<br><br>
@@ -33,7 +33,7 @@ layout: default
 	<b>Tech used: </b> VueJS, NodeJS, Flask, SQL, RESTful API, Tensorflow/Keras
 	<br>
 	<b> NLP terms in use: </b> Glove Embeddings, Tokenizer, Bidirectional Long-Short-Term-Memory (Bi-LSTM), Multi-Head Attention (MHA), and Conditional Random Field 
-</p>
+</section>
 
 <section class = "solution">
 	<h2>Solution: </h2>
@@ -41,7 +41,7 @@ layout: default
 	<img src = "statics/itt/itt_architecture.png"/>
 	<br>
 	Our core AI-NLP section is built around 2 separate models named: Potential Intents and True Intents models for generating potential intents and finalizing correct intents respectively. Potential Intents model bases on Bidirectional Long-Short-Term-Memory (Bi-LSTM) and Conditional Random Field (CRF); and True Intents model bases on Multi-Layer-Perceptron model. The combination of these 2 modules achieves the intent detection at accuracy of 75%. 
-
+	<br>
 	<section id = "Web application">
 		<h3> Screen shot of our product </h3>
 		<img src = "statics/itt/web_app.png"/>
