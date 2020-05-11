@@ -7,6 +7,18 @@ layout: default
 	Spring 2020 @University of Texas at Dalls - My team of 6 Senior CS/SE students and I, in Senior Project course, had cooperated with Concentrix supervisors to build a web-based tool to detect and generate intents withdrawn from given utterances. Our tool helps Speech scientists without strong coding skills easily remove noise, correct misspelling, and detect intents. Our core AI section is developed around 2 separate models, Potential Intents and True Intents models which respectively generate potential intents and finalize mostly correct intents. 
 </p>
 
+<section class = "acknowledgement">
+    <p>
+        Many thanks to our Concentrix supervisor, <b> Satya Palivela </b> , and our talented teammates: <b> Matthew Kunjammen, Johnathan Kim, Lan Vu, Tung Vu, and Frank Yang </b> who developed UI and Backend-Databases sides and integrated my AI-server. <br>
+        In this project, as an AI/ML engineer, I was responsible for researching, delivering NLP solutions, and deploying into productiong using Flask API and Tensorflow Serving. Through this project, I have broaden my knowledge in Natural Language Processing and skills in deploying AI into production:
+        <ul>
+            <li>Glove Embedding - pre-trained by Stanford</li>
+            <li>Multi-Head-Attention to distribute gradients and to attach focus of past words on a specific part of a sentence</li>
+            <li>Conditional Random Field to perform conditional classification, instead of statistics classification</li>
+            <li>Tensorflow Serving - Flask API</li>
+        </ul>
+    </p>
+</section>
 
 <p class = 'problem'>
 	<h4>Problem: </h4>
@@ -17,7 +29,7 @@ layout: default
 		<br>
 		<b>Intent:</b> cancen payment
 	<br><br>
-	<b>Tech used: </b> VueJS, NodeJS, SQL, RESTful API, Tensorflow/Keras
+	<b>Tech used: </b> VueJS, NodeJS, Flask, SQL, RESTful API, Tensorflow/Keras
 	<br>
 	<b> NLP terms in use: </b> Glove Embeddings, Tokenizer, Bidirectional Long-Short-Term-Memory (Bi-LSTM), Multi-Head Attention (MHA), and Conditional Random Field 
 </p>
@@ -28,6 +40,15 @@ layout: default
 	<img src = "statics/itt/itt_architecture.png"/>
 	<br>
 	Our core AI-NLP section is built around 2 separate models named: Potential Intents and True Intents models for generating potential intents and finalizing correct intents respectively. Potential Intents model bases on Bidirectional Long-Short-Term-Memory (Bi-LSTM) and Conditional Random Field (CRF); and True Intents model bases on Multi-Layer-Perceptron model. The combination of these 2 modules achieves the intent detection at accuracy of 75%. 
+
+	<section id = "Web application">
+		<h4> Screen shot of our product </h4>
+		<img src = "statics/itt/web_app.png"/>
+
+		<br> <br>
+		<h4> Screen shot of a intent-detected sample </h4>
+		<img src = "statics/itt/intent_detection_sample.png"/>
+	</section>
 </section>
 
-<p> All source codes are reseved and belonged to Concentrix.</p>
+<p> All source codes are reseved and belonged to Concentrix. Details of NLP models are not public due to NDA.</p>
