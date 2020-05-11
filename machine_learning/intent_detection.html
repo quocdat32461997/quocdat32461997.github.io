@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<h1> Transfer Learning for Chest Disease Detection </h1>
+
+<p>
+	Spring 2020 @University of Texas at Dalls - My team of 6 Senior CS/SE students and I, in Senior Project course, had cooperated with Concentrix supervisors to build a web-based tool to detect and generate intents withdrawn from given utterances. Our tool helps Speech scientists without strong coding skills easily remove noise, correct misspelling, and detect intents. Our core AI section is developed around 2 separate models, Potential Intents and True Intents models which respectively generate potential intents and finalize mostly correct intents. 
+</p>
+
+
+<p class = 'problem'>
+	<h4>Problem: </h4>
+	Intente Detection problem belongs to the Natural Language Understanding domain. This problem have been considered and solved by Classification solutions, e.g. DiagFlow using BERT to classify a give utterance to a predefined intent class. Classification solutions has shown its power in classifying intents with accuracy above 90%. However, it's limit is the list of predefined-intent classes, which may require huge effort and time into prepareing truth data. Manually labeling intents for each utterance is a time-consuming and labor-consuming task that not all companies or scientists could do.  
+	<br>
+	Example: 
+		Utterance: I want to cancel payment, now please. 
+		Intent: cancen payment
+	<b>Tech used: </b> VueJS, NodeJS, SQL, RESTful API, Tensorflow/Keras
+	<b> NLP terms in use: </b> Glove Embeddings, Tokenizer, Bidirectional Long-Short-Term-Memory (Bi-LSTM), Multi-Head Attention (MHA), and Conditional Random Field 
+</p>
+
+<section class = "solution">
+	<h4>Solution: </h4>
+	Our proposed solution is to develop a web application which archiecture consists of 3 separate RESTful API servers: UI - Backend/Database - AI. This design is to focus on the communication interface among servers which allows independent development, easy maintenance, and minimum changes in neighboring modules.
+	<img src = 'statics/itt/intent_detection.png'/>
+	<br>
+	Our core AI-NLP section is built around 2 separate models named: Potential Intents and True Intents models for generating potential intents and finalizing correct intents respectively. Potential Intents model bases on Bidirectional Long-Short-Term-Memory (Bi-LSTM) and Conditional Random Field (CRF); and True Intents model bases on Multi-Layer-Perceptron model. The combination of these 2 modules achieves the intent detection at accuracy of 75%. 
+	<section id = "data_stats">
+		<p> <br> One conclusion here is the meadian age of all patients is 48.47. Obviously, if look at max row, we observed the odd age of 414 which would be changed to 100</p>
+		<img src = "statics/data_stats.png"
+	</section>
+
+</section>
+
+<p> All codes are available <a href = "https://github.com/quocdat32461997/HealthCareAI_2019/blob/master/code-lab-3-chestxray8-vgg16.ipynb"> here </a> </p>
