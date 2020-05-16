@@ -4,7 +4,7 @@ layout: default
 <h1> Intent Detection </h1>
 
 <p>
-	Spring 2020 @University of Texas at Dalls - My team of 6 Senior CS/SE students and I, in Senior Project course, had cooperated with Concentrix supervisors to build a web-based tool to detect and generate intents withdrawn from given utterances. Our tool helps Speech scientists without strong coding skills easily remove noise, correct misspelling, and detect intents. Our core AI section is developed around 2 separate models, Potential Intents and True Intents models which respectively generate potential intents and finalize mostly correct intents. 
+	Spring 2020 @University of Texas at Dalls - My team of 6 Senior CS/SE students and I, in Senior Project course, had cooperated with Concentrix supervisors to build a web-based tool to detect and generate intents withdrawn from given utterances. Our tool helps Speech scientists without strong coding skills easily remove noise, correct misspelling, and detect intents. Our core AI section is developed around 2 separate models, Potential Intents and True Intents models which respectively generate potential intents and finalize mostly correct intents.
 </p>
 
 <section class = "acknowledgement">
@@ -23,17 +23,17 @@ layout: default
 
 <section class = 'problem'>
 	<h2>Problem: </h2>
-	Intente Detection problem belongs to the Natural Language Understanding domain. This problem have been considered and solved by Classification solutions, e.g. DiagFlow using BERT to classify a give utterance to a predefined intent class. Classification solutions has shown its power in classifying intents with accuracy above 90%. However, it's limit is the list of predefined-intent classes, which may require huge effort and time into prepareing truth data. Manually labeling intents for each utterance is a time-consuming and labor-consuming task that not all companies or scientists could do.  
+	Intente Detection problem belongs to the Natural Language Understanding domain. This problem have been considered and solved by Classification solutions, e.g. DiagFlow using BERT to classify a give utterance to a predefined intent class. Classification solutions has shown its power in classifying intents with accuracy above 90%. However, it's limit is the list of predefined-intent classes, which may require huge effort and time into prepareing truth data. Manually labeling intents for each utterance is a time-consuming and labor-consuming task that not all companies or scientists could do.
 	<br><br>
-	Example: 
+	Example:
 		<br>
-		<b>Utterance:</b> I want to cancel payment, now please. 
+		<b>Utterance:</b> I want to cancel payment, now please.
 		<br>
 		<b>Intent:</b> cancen payment
 	<br><br>
 	<b>Tech used: </b> VueJS, NodeJS, Flask, SQL, RESTful API, Tensorflow/Keras
 	<br>
-	<b> NLP terms in use: </b> Glove Embeddings, Tokenizer, Bidirectional Long-Short-Term-Memory (Bi-LSTM), Multi-Head Attention (MHA), and Conditional Random Field 
+	<b> NLP terms in use: </b> Glove Embeddings, Tokenizer, Bidirectional Long-Short-Term-Memory (Bi-LSTM), Multi-Head Attention (MHA), and Conditional Random Field
 </section>
 
 <section class = "solution">
@@ -42,7 +42,7 @@ layout: default
 	<br>
 	<img src = "statics/itt/itt_architecture.png"/>
 	<br>
-	Our core AI-NLP section is built around 2 separate models named: Potential Intents and True Intents models for generating potential intents and finalizing correct intents respectively. Potential Intents model bases on Bidirectional Long-Short-Term-Memory (Bi-LSTM) and Conditional Random Field (CRF); and True Intents model bases on Multi-Layer-Perceptron model. The combination of these 2 modules achieves the intent detection at accuracy of 75%. 
+	Our core AI-NLP section is built around 2 separate models named: Potential Intents and True Intents models for generating potential intents and finalizing correct intents respectively. Potential Intents model bases on Bidirectional Long-Short-Term-Memory (Bi-LSTM) and Conditional Random Field (CRF); and True Intents model bases on Multi-Layer-Perceptron model. The combination of these 2 modules achieves the intent detection at accuracy of 75%.
 	<br>
 	<section id = "Web application">
 		<h3> Screen shot of our product </h3>
