@@ -52,3 +52,10 @@ My team of 6 Senior CS/SE students in Senior Project course:
    - Conditional Random Field (CRF)
    - Multilayer Perceptron
  * The model is implemented in OOP content that allows easy maintaince 
+
+
+## Demo
+* Screen shots of products:
+ ** ![Frontend UI](itt/web_app.png)
+ ** ![Intent Detection](itt/intent_sample.png) 
+ ** ![Architecure](itt/itt_architecture.png)
