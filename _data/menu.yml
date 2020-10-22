@@ -4,9 +4,12 @@ entries:
    entries:
     - title: Dat (Eric) Quoc Ngo
       url: false
+
     - title: contracts
       url: false
       entries:
+       - title: twitter
+         url: @DatQuocNgo
        - title: linkedin
          url: https://www.linkedin.com/in/dat-ngo-ab8b20148/
        - tile : github
@@ -23,13 +26,20 @@ entries:
        - title: Research Assistant at Auditory-Perception-Engineering-Laboratory at UTD * Richardson, Texas * May 2018 - Dec 2019
        - title: Math & Comp. Sci. Tutor at Univ. of Texas at Dallas * Richardson, Texas * Sep 2019 - Mar 2020
        - title: Math Tutor at Collin Colelge * Plano, Texas * April - Dec 2017
-       - title: Please check my Linkedin profile for detailed job description: https://www.linkedin.com/in/dat-ngo-ab8b20148/
+       - title: Please check my Linkedin profile for detailed job description
 
     - title: projects
       post_list: true
 
     - title: research
       post_list: true
+
+    - title: awards & activities
+      entries:
+       - title: My tech blogs on Medium
+         url: https://medium.com/@datngo_79115
+       - title: Technical Officer at UTDallas Developer Student Club (DSC)
+         url: https://dsc.community.dev/university-of-texas-at-dallas/
 
     - title: education
       url: false
