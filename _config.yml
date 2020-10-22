@@ -5,6 +5,7 @@ email: quocdat32461997@yahoo.com # email of site's author
 favicon: "./logo.png" # relative path to site's favicon
 # goat_counter: "quocdat32461997.github.io" # put your GoatCounter name if you want to use GoatCounter analytics
 
+permalink: /:slug.html
 
 theme_config:
   appearance: "dark" # can be "light", "dark" or "auto"

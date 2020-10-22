@@ -2,7 +2,7 @@ entries:
  - title: info
    url: false
    entries:
-    - title: Dat (Eric) Quoc Ngo
+    - title: i am Dat (Eric) Quoc Ngo
       url: false
 
     - title: contracts
@@ -11,7 +11,7 @@ entries:
        - title: twitter @DatQuocNgo
        - title: linkedin
          url: https://www.linkedin.com/in/dat-ngo-ab8b20148/
-       - tile: github
+       - title: github
          url: https://github.com/quocdat32461997
        - title: email
          url: quocdat32461997@yahoo.com
@@ -20,11 +20,17 @@ entries:
       url: https://www.linkedin.com/in/dat-ngo-ab8b20148/
       entries:
        - title: Visiting AI Researcher at deepkapha.ai * Netherlands & Remote * Aug 2020 - Present
+         url: false
        - title: Full-Stack Developer Intern at Surfboard * Richardson, Texas * Mar - Oct 2020
+         url: false
        - title: Full-Stack Developer Intern at QuenchHow * Richardson, Texas * May -  Aug 2019
+         url: false
        - title: Research Assistant at Auditory-Perception-Engineering-Laboratory at UTD * Richardson, Texas * May 2018 - Dec 2019
+         url: false
        - title: Math & Comp. Sci. Tutor at Univ. of Texas at Dallas * Richardson, Texas * Sep 2019 - Mar 2020
+         url: false
        - title: Math Tutor at Collin Colelge * Plano, Texas * April - Dec 2017
+         url: false
        - title: Please check my Linkedin profile for detailed job description
 
     - title: projects
