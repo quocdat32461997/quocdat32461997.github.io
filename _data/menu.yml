@@ -8,11 +8,10 @@ entries:
     - title: contracts
       url: false
       entries:
-       - title: twitter
-         url: @DatQuocNgo
+       - title: twitter @DatQuocNgo
        - title: linkedin
          url: https://www.linkedin.com/in/dat-ngo-ab8b20148/
-       - tile : github
+       - tile: github
          url: https://github.com/quocdat32461997
        - title: email
          url: quocdat32461997@yahoo.com
@@ -22,7 +21,7 @@ entries:
       entries:
        - title: Visiting AI Researcher at deepkapha.ai * Netherlands & Remote * Aug 2020 - Present
        - title: Full-Stack Developer Intern at Surfboard * Richardson, Texas * Mar - Oct 2020
-       - title : Full-Stack Developer Intern at QuenchHow * Richardson, Texas * May -  Aug 2019
+       - title: Full-Stack Developer Intern at QuenchHow * Richardson, Texas * May -  Aug 2019
        - title: Research Assistant at Auditory-Perception-Engineering-Laboratory at UTD * Richardson, Texas * May 2018 - Dec 2019
        - title: Math & Comp. Sci. Tutor at Univ. of Texas at Dallas * Richardson, Texas * Sep 2019 - Mar 2020
        - title: Math Tutor at Collin Colelge * Plano, Texas * April - Dec 2017
