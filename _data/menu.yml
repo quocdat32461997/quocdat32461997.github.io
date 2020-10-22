@@ -44,6 +44,7 @@ entries:
      - title: MoCV (a smaller version of OpenCV)
        url: ./_posts/mocv.md
      - title: VGG16 for Chest Disease Detection
+       description: First prize at Health-Care AI 2019 at UT-Dallas
        url: ./_posts/chest_disease_detection.md
 
   - title: research
