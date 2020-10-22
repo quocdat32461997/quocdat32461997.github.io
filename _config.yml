@@ -1,5 +1,5 @@
 title: quocdat32461997 # name of the site
-author: Dat Ngo # name of site's author
+author: Dat Quoc Ngo # name of site's author
 email: quocdat32461997@yahoo.com # email of site's author
 
 favicon: "./logo.png" # relative path to site's favicon
@@ -11,7 +11,7 @@ theme_config:
   appearance: "dark" # can be "light", "dark" or "auto"
   back_home_text: ".." # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
-  show_description: false # show blog description in home page
+  show_description: true # show blog description in home page
 
 sass:
   style: :compressed
