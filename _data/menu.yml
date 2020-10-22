@@ -32,12 +32,27 @@ entries:
        - title: Math Tutor at Collin Colelge * Plano, Texas * April - Dec 2017
          url: false
        - title: Please check my Linkedin profile for detailed job description
+         url: false
 
     - title: projects
-      post_list: true
+      url: false
+      entries:
+       - title: BiLSTM-CRF
+         url: ./_posts/bilstm_crf.md
+       - title: Intent Detection (A natural-intent retriever as Google DiagFlow) developed at Concentric Inc.
+         url: ./_psots/intent_detection.md
+       - title: MoCV (a smaller version of OpenCV)
+         url: ./_posts/mocv.md
+       - title: VGG16 for Chest Disease Detection
+         url: ./_posts/chest_disease_detection.md
 
     - title: research
-      post_list: true
+      url: false
+      entries:
+       - title: Neural Entrainment to Speech Envelope in response to Perceived Sound Quality - NER 2019
+         url: https://ieeexplore.ieee.org/document/8717078
+       - title: Linear and Nonlienar Reconstruction of Speech Envelope from EEG - Preprint
+         url: research/linear_and_nonlinear_reconstruction_of_speech_envelope_from_eeg.p
 
     - title: awards & activities
       entries:
