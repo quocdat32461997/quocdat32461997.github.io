@@ -40,7 +40,7 @@ entries:
      - title: BiLSTM-CRF
        url: https://github.com/quocdat32461997/BiLSTM-CRF
      - title: Intent Detection (A natural-intent retriever as Google DiagFlow) developed at Concentric Inc.
-       url: ./_psots/intent_detection.md
+       url: ./_posts/intent_detection.md
      - title: MoCV (a smaller version of OpenCV)
        url: ./_posts/mocv.md
      - title: VGG16 for Chest Disease Detection
