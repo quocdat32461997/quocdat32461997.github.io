@@ -19,22 +19,20 @@ entries:
   - title: work experience
     url: https://www.linkedin.com/in/dat-ngo-ab8b20148/
     entries:
-     - title: Visiting AI Researcher at deepkapha.ai * Netherlands & Remote * Aug 2020 - Present
-       description: research on expanding Graph Neural Networks for NLP/NLU tasks
-       url: false
-     - title: Full-Stack Developer Intern at Surfboard * Richardson, Texas * Mar - Oct 2020
-       description: develoepd Video Analysis tool (YOLOV3), infrastructures for Trending hashtags/categories & Video Recommendation System (PySpark, NVTabular, Tensorflow, AWS).
-       url: false
-     - title: Full-Stack Developer Intern at QuenchHow * Richardson, Texas * May -  Aug 2019
-       url: false
-     - title: Research Assistant at Auditory-Perception-Engineering-Laboratory at UTD * Richardson, Texas * May 2018 - Dec 2019
-       url: false
-     - title: Math & Comp. Sci. Tutor at Univ. of Texas at Dallas * Richardson, Texas * Sep 2019 - Mar 2020
-       url: false
-     - title: Math Tutor at Collin Colelge * Plano, Texas * April - Dec 2017
-       url: false
-     - title: Please check my Linkedin profile for detailed job description
-       url: false
+      - title: Visiting AI Researcher at deepkapha.ai * Netherlands & Remote * Aug 2020 - Present
+        description: research on expanding Graph Neural Networks for NLP/NLU tasks
+        url: false
+      - title: Full-Stack Developer Intern at Surfboard * Richardson, Texas * Mar - Oct 2020
+        description: develoepd Video Analysis tool (YOLOV3), infrastructures for Trending hashtags/categories & Video Recommendation System (PySpark, NVTabular, Tensorflow, AWS).
+        url: false
+      - title: Full-Stack Developer Intern at QuenchHow * Richardson, Texas * May -  Aug 2019
+        url: false
+      - title: Research Assistant at Auditory-Perception-Engineering-Laboratory at UTD * Richardson, Texas * May 2018 - Dec 2019
+        url: false
+      - title: Math & Comp. Sci. Tutor at Univ. of Texas at Dallas * Richardson, Texas * Sep 2019 - Mar 2020
+        url: false
+      - title: Math Tutor at Collin Colelge * Plano, Texas * April - Dec 2017
+        url: false
 
   - title: projects
     url: false
@@ -51,22 +49,22 @@ entries:
   - title: research
     url: false
     entries:
-     - title: Neural Entrainment to Speech Envelope in response to Perceived Sound Quality - NER 2019
-       url: https://ieeexplore.ieee.org/document/8717078
-     - title: Linear and Nonlienar Reconstruction of Speech Envelope from EEG - Preprint
-      url: research/linear_and_nonlinear_reconstruction_of_speech_envelope_from_eeg.p
+      - title: Neural Entrainment to Speech Envelope in response to Perceived Sound Quality - NER 2019
+        url: https://ieeexplore.ieee.org/document/8717078
+      - title: Linear and Nonlienar Reconstruction of Speech Envelope from EEG - Preprint
+        url: research/linear_and_nonlinear_reconstruction_of_speech_envelope_from_eeg.p
 
   - title: awards & activities
     entries:
-     - title: My tech blogs on Medium
-       url: https://medium.com/@datngo_79115
-     - title: Technical Officer at UTDallas Developer Student Club (DSC)
-       url: https://dsc.community.dev/university-of-texas-at-dallas/
+      - title: My tech blogs on Medium
+        url: https://medium.com/@datngo_79115
+      - title: Technical Officer at UTDallas Developer Student Club (DSC)
+        url: https://dsc.community.dev/university-of-texas-at-dallas/
 
   - title: education
     url: false
     entries: 
-     - title: B.S. in Comptuer Science 2018-2020 at University of Texas at Dallas
-       url: false
-     - title: A.S. in Computer Sciecne 2016-2018 at Collin College
-       url: false
+      - title: B.S. in Comptuer Science 2018-2020 at University of Texas at Dallas
+        url: false
+      - title: A.S. in Computer Sciecne 2016-2018 at Collin College
+        url: false
