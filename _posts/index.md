@@ -1,3 +1,5 @@
 ---
-layout: home
+layout: post
 ---
+
+Hi all
