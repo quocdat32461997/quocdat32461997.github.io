@@ -1,7 +1,18 @@
 ---
 layout: default
 ---
-
-<a href="{{ site.url }}">{{ site.theme_config.back_home_text }}</a>
-<h1>{{ page.title }}</h1>
-{{ content }}
+{% assign post = page %}
+<main class="container">
+    <div class="row">
+        <div class="col-2">
+            <a href="{{ site.baseurl }}/">[ Home ]</a>
+            <article>
+                <h1>{{ post.title }}</h1>
+                <small>{% include post_date.html %}</small>
+                <p>{{ content }}</p>
+            </article>
+            {% include buttons.html %}
+        </div>
+        {% include post_sidebar.html %}
+    </div>
+</main>
