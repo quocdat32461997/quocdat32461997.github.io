@@ -57,6 +57,6 @@ My team of 6 Senior CS/SE students in Senior Project course:
 * Multilayer Perceptron
 
 ## Demo
-* ![Frontend UI](./itt/web_app.png)
-* ![Intent Detection](https://github.com/quocdat32461997/quocdat32461997.github.io/blob/master/_posts/itt/intent_sample.png) 
-* ![Architecure](https://github.com/quocdat32461997/quocdat32461997.github.io/blob/master/_posts/itt/itt_architecture.png)
+* ![Frontend UI](_posts/itt/web_app.png)
+* ![Intent Detection](_posts/itt/intent_sample.png) 
+* ![Architecure](_posts/itt/itt_architecture.png)
