@@ -19,4 +19,4 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-remote_theme: riggaraz/no-style-please
+remote_theme: no-style-please
