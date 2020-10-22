@@ -7,12 +7,13 @@ entries:
     - title: contracts
       url: false
       entries:
-       - title: [linkedin](https://www.linkedin.com/in/dat-ngo-ab8b20148/)
-         url: false 
-       - tile : [github](https://github.com/quocdat32461997)
-         url: false
-       - title: [email](quocdat32461997@yahoo.com)
-         url: false
+       - title: linkedin
+         url: https://www.linkedin.com/in/dat-ngo-ab8b20148/
+       - tile : github
+         url: https://github.com/quocdat32461997
+       - title: email
+         url: quocdat32461997@yahoo.com
+
     - title: education
       url: false
       entries: 
