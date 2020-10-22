@@ -13,14 +13,18 @@ entries:
 		url: false
 		- title: [email](quocdat32461997@yahoo.com)
 		url: false
+	- title: education
+		- title: M.S. in Computer Science & Intelligent System (Machine Learning) 2020-2021 at University of Texas at Dallas
+		url: false
+		- title: B.S. in Comptuer Science 2018-2020 at University of Texas at Dallas
+		url: false
+		- title: A.S. in Computer Sciecne 2016-2018 at Collin College
+		url: false
 
 	- title: thoughts
 	post_list: true
 	url: false
 	entries: false
-
-	- title: rss
-	url: feed.xml
 
 	- title: another list
 	url: false
