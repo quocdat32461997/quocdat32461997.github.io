@@ -37,25 +37,25 @@ My team of 6 Senior CS/SE students in Senior Project course:
 
 ## Solutions:
 * A web tool that allows scientists to upload corpus and retrieve intents. The corpus/detected intents are saved for each scientist account for later use.
- - Architecture (modules communicate by RESTful API): 
-  - Backend (NodeJS + SQL)
-  - AI/ML module (Tensorflow/Keras)
-  - Frontend (VueJS)
+ * Architecture (modules communicate by RESTful API): 
+ * Backend (NodeJS + SQL)
+ * AI/ML module (Tensorflow/Keras)
+ * Frontend (VueJS)
 * The AI module:
  * Intent is defined as tuple of Vert-Noun and Noun-Noun.
  * A hybrid model of 2 modules:
-  - Module 1: detect tuples of Verb-Noun and Noun-Nouns as potential intents
-  - Module 2: given potential intents, finalize the correct intent
-  -  The model is built around:
-   - Pre-trained Word Embeddings from Stanford NLP
-   - Bidirectional Long-Short-Term-Memory (BiLSTM)
-   - Conditional Random Field (CRF)
-   - Multilayer Perceptron
+  * Module 1: detect tuples of Verb-Noun and Noun-Nouns as potential intents
+  * Module 2: given potential intents, finalize the correct intent
+  * The model is built around:
+   * Pre-trained Word Embeddings from Stanford NLP
+   * Bidirectional Long-Short-Term-Memory (BiLSTM)
+   * Conditional Random Field (CRF)
+   * Multilayer Perceptron
  * The model is implemented in OOP content that allows easy maintaince 
 
 
 ## Demo
 * Screen shots of products:
- ** ![Frontend UI](itt/web_app.png)
- ** ![Intent Detection](itt/intent_sample.png) 
- ** ![Architecure](itt/itt_architecture.png)
+ * ![Frontend UI](https://github.com/quocdat32461997/quocdat32461997.github.io/blob/master/_posts/itt/web_app.png)
+ * ![Intent Detection](https://github.com/quocdat32461997/quocdat32461997.github.io/blob/master/_posts/itt/intent_sample.png) 
+ * ![Architecure](https://github.com/quocdat32461997/quocdat32461997.github.io/blob/master/_posts/itt/itt_architecture.png)
