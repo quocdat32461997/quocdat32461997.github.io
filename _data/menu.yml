@@ -42,7 +42,7 @@ entries:
      - title: Intent Detection (A natural-intent retriever as Google DiagFlow) developed at Concentric Inc.
        url: ./_posts/intent_detection.md
      - title: MoCV (a smaller version of OpenCV)
-       url: ./_posts/mocv.md
+       url: https://pypi.org/project/MoCV/
      - title: VGG16 for Chest Disease Detection
        description: First prize at Health-Care AI 2019 at UT-Dallas
        url: ./_posts/chest_disease_detection.md
