@@ -2,7 +2,7 @@ entries:
  - title: info
    url: false
    entries:
-    - name: Dat (Eric) Quoc Ngo
+    - title: Dat (Eric) Quoc Ngo
       url: false
     - title: contracts
       url: false
@@ -14,6 +14,23 @@ entries:
        - title: email
          url: quocdat32461997@yahoo.com
 
+    - title: work experience
+      url: https://www.linkedin.com/in/dat-ngo-ab8b20148/
+      entries:
+       - title: Visiting AI Researcher at deepkapha.ai * Netherlands & Remote * Aug 2020 - Present
+       - title: Full-Stack Developer Intern at Surfboard * Richardson, Texas * Mar - Oct 2020
+       - title : Full-Stack Developer Intern at QuenchHow * Richardson, Texas * May -  Aug 2019
+       - title: Research Assistant at Auditory-Perception-Engineering-Laboratory at UTD * Richardson, Texas * May 2018 - Dec 2019
+       - title: Math & Comp. Sci. Tutor at Univ. of Texas at Dallas * Richardson, Texas * Sep 2019 - Mar 2020
+       - title: Math Tutor at Collin Colelge * Plano, Texas * April - Dec 2017
+       - title: Please check my Linkedin profile for detailed job description: https://www.linkedin.com/in/dat-ngo-ab8b20148/
+
+    - title: projects
+      post_list: true
+
+    - title: research
+      post_list: true
+
     - title: education
       url: false
       entries: 
@@ -24,7 +41,7 @@ entries:
        - title: A.S. in Computer Sciecne 2016-2018 at Collin College
          url: false
 
-    - title: thoughts
+ - title: thoughts
       post_list: true
       url: false
       entries: false
