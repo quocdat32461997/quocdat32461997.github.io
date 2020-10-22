@@ -20,8 +20,10 @@ entries:
  url: https://www.linkedin.com/in/dat-ngo-ab8b20148/
  entries:
   - title: Visiting AI Researcher at deepkapha.ai * Netherlands & Remote * Aug 2020 - Present
+  description: research on expanding Graph Neural Networks for NLP/NLU tasks
   url: false
   - title: Full-Stack Developer Intern at Surfboard * Richardson, Texas * Mar - Oct 2020
+  description: develoepd Video Analysis tool (YOLOV3), infrastructures for Trending hashtags/categories & Video Recommendation System (PySpark, NVTabular, Tensorflow, AWS).
   url: false
   - title: Full-Stack Developer Intern at QuenchHow * Richardson, Texas * May -  Aug 2019
   url: false
