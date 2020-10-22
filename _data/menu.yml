@@ -1,43 +1,43 @@
 entries:
 	- title: info
-	url: false
-	entries:
+	  url: false
+	  entries:
 	- name: Dat (Eric) Quoc Ngo
-	url: false
+	  url: false
 	- title: contracts
-	url: false
-	entries:
+	  url: false
+	  entries:
 		- title: [linkedin](https://www.linkedin.com/in/dat-ngo-ab8b20148/)
-		url: false 
+		  url: false 
 		- tile : [github](https://github.com/quocdat32461997)
-		url: false
+		  url: false
 		- title: [email](quocdat32461997@yahoo.com)
-		url: false
-	- title: education
+		  url: false
+	- entries: education
 		- title: M.S. in Computer Science & Intelligent System (Machine Learning) 2020-2021 at University of Texas at Dallas
-		url: false
+		  url: false
 		- title: B.S. in Comptuer Science 2018-2020 at University of Texas at Dallas
-		url: false
+		  url: false
 		- title: A.S. in Computer Sciecne 2016-2018 at Collin College
-		url: false
+		  url: false
 
 	- title: thoughts
-	post_list: true
-	url: false
-	entries: false
+	  post_list: true
+	  url: false
+	  entries: false
 
 	- title: another list
-	url: false
-	entries:
+	  url: false
+	  entries:
 		- title: with subitems
-		url: false
-		entries:
+		  url: false
+		  entries:
 			- title: with subsubitems
-			url: false
+			  url: false
 			- title: example page
-			url: about
+			  url: about
 	- title: PRO TIP
-	url: false
-	entries:
+	  url: false
+	  entries:
 		- title: to edit this menu, edit _data/menu.yml file
-		url: false
+		  url: false
