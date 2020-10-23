@@ -4,8 +4,6 @@ title: Research
 permalink: /research/
 ---
 
-# Reserach
-
 ### Neural Entrainment to Speech Envelope in response to Perceived Sound Quality
 **Dat Quoc Ngo**; Garret Oliver; Gleb Tcheslavski; Chin-Tuan Tan \
 Neural Engineering Conference (NER) - EMBS-IEEE, 2019
