@@ -2,12 +2,12 @@
 layout: post
 ---
 
-# BiLSTM-CRF
+# [BiLSTM-CRF](https://github.com/quocdat32461997/BiLSTM-CRF)
 
-Implementation of BiLSTM-CRF model for Name Entity Recognition
+Implementation of BiLSTM-CRF model for Name Entity Recognition based on the following paper: [Bidirectional LSTM-CRF Models for Sequence Tagging](https://arxiv.org/abs/1508.01991)
 
-Checklists:
+## Checklists:
 * Codes for model & data pipeline
 * Deployment on AWS & Google Cloud
 
-Details of implementation is available here: https://github.com/quocdat32461997/BiLSTM-CRF
+**Details of implementation** is available here: [BiLSTM-CRF](https://github.com/quocdat32461997/BiLSTM-CRF)
