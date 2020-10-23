@@ -2,7 +2,7 @@
 layout: post
 ---
 
-# Explain: Classification Loss: Cross-Entropy
+# Explain: Classification Loss for Cross-Entropy
 I have recently worked on Computer Vision projects for classification tasks. Papers and tutorials mention Cross Entropy as the mostly used loss function to measure the difference between predictions and labels. Now, the question is what, how, and why we use Cross Entropy?
 
 **--Please follow this [link](https://medium.com/analytics-vidhya/classification-loss-cross-entropy-6ed6d598bf8f) for the full blog of this topic--**
