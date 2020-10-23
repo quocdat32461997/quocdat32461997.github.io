@@ -15,4 +15,4 @@ in this post, I implemented various Machine Learning algorithms to predict the s
 
 **Dataset is avaiable at:** [https://www.kaggle.com/c/titanic])https://www.kaggle.com/c/titanic_
 
-**My work is available at:** [titanic_survival_rate_prediction.pdf](assets/titanic_survival_rate_prediction.pdf)
+**My work is available at:** [titanic_survival_rate_prediction.pdf](https://github.com/quocdat32461997/quocdat32461997.github.io/blob/master/assets/titanic_survival_rate_prediction.pdf)
