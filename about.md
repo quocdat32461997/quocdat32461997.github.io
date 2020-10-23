@@ -6,7 +6,7 @@ permalink: /about/
 
 ## Info & Contacts
 * Name: Dat (Eric) Quoc Ngo
-* Email: quocdat32461997.com
+* Email: quocdat32461997@yahoo.com
 
 ## Skills
 * Languages: Python, MATLAB, Java, Functional Programming
