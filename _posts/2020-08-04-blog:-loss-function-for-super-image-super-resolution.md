@@ -9,6 +9,7 @@ In SISR, Autoencoder and U-Net are heavily used; however, they are well-known fo
 * Mean Gradient Error (MGE)
 
 ![mge](/assets/mge.png)
+![mse](/assets/mse.png)
 
 **-- Please follow this [link](https://medium.com/analytics-vidhya/loss-functions-for-image-super-resolution-sisr-8a65644fbd85) to see the full blog of the topic --**
 
