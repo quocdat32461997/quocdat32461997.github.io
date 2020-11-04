@@ -12,4 +12,4 @@ Implementation of BiLSTM-CRF model for Name Entity Recognition based on the foll
 * Codes for model & data pipeline
 * Deployment on AWS & Google Cloud
 
-**Details of implementation** is available here: [BiLSTM-CRF](https://github.com/quocdat32461997/BiLSTM-CRF)
+**Details of implementation** is available here: [BiLSTM-CRF](https://github.com/quocdat32461997/NER)
