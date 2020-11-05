@@ -2,7 +2,6 @@
 layout: post
 ---
 
-# Vacation2AI
 Collections of :
 * Interesting research papers
 * My Machine Learning and Deep Learning implementations
