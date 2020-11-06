@@ -12,6 +12,6 @@ The end-to-end implementation of BiLSTM-CRF model for Name Entity Recognition ba
 * Full Tensorflow Data pipeline for Text-Preprocessing
 * Inference functionality:
   * [x] Local server
-  * [_] AWS
+  * [ ] AWS
 
 **Details of implementation** is available here: [BiLSTM-CRF](https://github.com/quocdat32461997/NER)
