@@ -2,8 +2,8 @@
 layout: post
 ---
 
-Collections of :
-* Interesting research papers
+Below is my collections of :
+* Interesting research papers (several of many) I have read
 * My Machine Learning and Deep Learning implementations
 
 Modules:
