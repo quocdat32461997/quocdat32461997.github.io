@@ -9,7 +9,8 @@ layout: post
 The end-to-end implementation of BiLSTM-CRF model for Name Entity Recognition based on the following paper: [Bidirectional LSTM-CRF Models for Sequence Tagging](https://arxiv.org/abs/1508.01991).
 
 ## Shipped with:
-* Full Tensorflow Data pipeline for Text-Preprocessing
+* [x] Full Tensorflow Data pipeline for Text-Preprocessing
+* [x] Functions to save the pretarined model into SavedFormat of Tensorflow Serving for Fine-tuning or Deployment.
 * Inference functionality:
   * [x] Local server
   * [ ] AWS
