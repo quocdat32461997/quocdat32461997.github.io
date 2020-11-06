@@ -6,10 +6,12 @@ layout: post
 
 ![img](/assets/bilstm-crf-network.png)
 
-Implementation of BiLSTM-CRF model for Name Entity Recognition based on the following paper: [Bidirectional LSTM-CRF Models for Sequence Tagging](https://arxiv.org/abs/1508.01991)
+The end-to-end implementation of BiLSTM-CRF model for Name Entity Recognition based on the following paper: [Bidirectional LSTM-CRF Models for Sequence Tagging](https://arxiv.org/abs/1508.01991).
 
-## Checklists:
-* Codes for model & data pipeline
-* Deployment on AWS & Google Cloud
+## Shipped with:
+* Full Tensorflow Data pipeline for Text-Preprocessing
+* Inference functionality:
+  * [x] Local server
+  * [] AWS
 
 **Details of implementation** is available here: [BiLSTM-CRF](https://github.com/quocdat32461997/NER)
