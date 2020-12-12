@@ -2,7 +2,7 @@
 layout: post
 ---
 
-# [BiLSTM-CRF](https://github.com/quocdat32461997/BiLSTM-CRF)
+# [NER](https://github.com/quocdat32461997/NER)
 
 ![img](/assets/bilstm-crf-network.png)
 
@@ -15,4 +15,4 @@ The end-to-end implementation of BiLSTM-CRF model for Name Entity Recognition ba
   * [x] Local server
   * [ ] AWS
 
-**Details of implementation** is available here: [BiLSTM-CRF](https://github.com/quocdat32461997/NER)
+**Details of implementation** is available here: [NER](https://github.com/quocdat32461997/NER)
