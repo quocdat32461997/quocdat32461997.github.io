@@ -7,6 +7,8 @@ permalink: /about/
 ## Info & Contacts
 * Name: Dat (Eric) Quoc Ngo
 * Email: quocdat32461997@yahoo.com
+* Github: https://github.com/quocdat32461997
+* Twitter: @DatQuocNgo
 
 ## Skills
 * Proficient: 	Python, Tensorflows, Numpy, Pandas, Git/Github, Ubuntu/MacOS
