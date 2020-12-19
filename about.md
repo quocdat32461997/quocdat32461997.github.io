@@ -31,5 +31,7 @@ permalink: /about/
 * [My tech blogs on Medium](https://medium.com/@datngo_79115)
 * [Technical Coordinator at AI Society]()
 * [Technichal Officer at UTDallas Developer Student Club (DSC)](https://dsc.community.dev/university-of-texas-at-dallas/)
-* 2019 Undergraduate Research Award
+* 2019 Johnson Undergraduate Research Award
+* 2019 1st Place at UTD MedicalAI Hackathon
+* 2018 Best Desk to Bedside Award at U-Hack Med 2018 at UT Southwestern
 * 2017 Math Excellence Award
