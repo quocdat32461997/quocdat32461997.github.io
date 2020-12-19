@@ -15,12 +15,12 @@ permalink: /about/
 * Speaking: English & Vietnamese fluently, and elementary Korean
 
 ## Work Experience
-* Visiting AI Researcher at [deepkapha.ai](https://deepkapha.ai/)
-* Teaching Assistant at [LiveAI](https://liveai.eu/)
-* Full-Stack Developer Intern at [Surfboard One](https://www.linkedin.com/company/surfboardco/)
-* Full-Stack Developer Intern at Quench How
-* Research Assistant at Auditory-Perception-Engineering-Laboratory, Uni. of Texas at Dallas
-* Math & Comp. Sci. Tutor at Uni. of Texas at Dallas
+* Visiting AI Researcher at [deepkapha.ai](https://deepkapha.ai/), Aug 2020 - Present
+* Teaching Assistant at [LiveAI](https://liveai.eu/), Aug 2020 - Present
+* Full-Stack Developer Intern at [Surfboard One](https://www.linkedin.com/company/surfboardco/), Mar - Oct 2020
+* Full-Stack Developer Intern at Quench How, June - Aug 2019
+* Research Assistant at Auditory-Perception-Engineering-Laboratory, Uni. of Texas at Dallas, May 2018 - Dec 2019
+* Math & Comp. Sci. Tutor at Uni. of Texas at Dallas, Aug 2018 - Mar 2020
 
 ## Education
 * M.S. in Computer Science - Intelligent System at University of Texas at Dallas, Jan 2021 - May 2022
