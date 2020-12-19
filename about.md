@@ -26,7 +26,6 @@ permalink: /about/
 * M.S. in Computer Science - Intelligent System at University of Texas at Dallas, Jan 2021 - May 2022
 * B.S. in Computer Science at Univeristy of Texas at Dallas, 2018-2020
 * A.S. in Computer Science at Collin College, 2016 - 2020
-* B.A. in Business Management at University of Economics in Ho Chi Minh City
 
 ## Award & Activities
 * [My tech blogs on Medium](https://medium.com/@datngo_79115)
