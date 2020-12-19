@@ -14,15 +14,9 @@ permalink: /about/
 * Familiar:	Scikit-learn, OpenCV, NLTK, AWS (S3, EC2, Redshift, SageMaker, RDS), Flask, Docker, SQL, HTML & CSS
 * Speaking: English & Vietnamese fluently, and elementary Korean
 
-## AI/ML
-* Experience with CNN, RNN/LSTM, MLP
-* CNN: YOLOv3, Mask-RCNN, VGG/ResNet
-* NLP/NLU: BiLSTM-CRF (NER), BERT
-* Graph models: Graph Convolutional Networks (GCN), Graph Attention Networks (GAN)
-* Sparse models: DeepFM, Factorization Machines
-
 ## Work Experience
 * Visiting AI Researcher at [deepkapha.ai](https://deepkapha.ai/)
+* Teaching Assistant at [LiveAI](https://liveai.eu/)
 * Full-Stack Developer Intern at [Surfboard One](https://www.linkedin.com/company/surfboardco/)
 * Full-Stack Developer Intern at Quench How
 * Research Assistant at Auditory-Perception-Engineering-Laboratory, Uni. of Texas at Dallas
