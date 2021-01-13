@@ -11,9 +11,10 @@ permalink: /about/
 * Twitter: @DatQuocNgo
 
 ## Skills
-* Proficient: 	Python, Tensorflows, Numpy, Pandas, Git/Github, Ubuntu/MacOS
-* AI/ML: 	RNN/LSTM/GRU, Transformer/Attention, Convolution, PySpark, NVTabular
-* Familiar:	Scikit-learn, OpenCV, NLTK, AWS (S3, EC2, Redshift, SageMaker, RDS), Flask, Docker, SQL, HTML & CSS
+&	Proficient: 	Python, Tensorflow, Numpy, Pandas, Git/Github, Linux/Ubuntu/MacOS
+*	CV:	OpenCV, CNN (ResNet, VGG), Detection/Segmentation (YOLO, Faster/Mask RCNN)
+*	NLP: 	RNN/LSTM/GRU/Transformer (BERT), NLTK, StanfordNLP
+*	Familiar:	Scikit-learn, PySpark, NVTabular, AWS (S3, EC2, Redshift, SageMaker, RDS), Flask, Docker, SQL, HTML/CSS
 * Speaking: English & Vietnamese fluently, and elementary Korean
 
 ## Work Experience
