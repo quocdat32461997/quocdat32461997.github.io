@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Research
+title: Portfolio
 permalink: /portfolio/
 ---
 
-# machine-learning-portfolio
 This consists:
 * timeline-based AI/ML/DL projects that I have worked on
 * My publications
