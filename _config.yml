@@ -48,6 +48,7 @@ minima:
 header_pages:
  - about.md
  - research.md
+ - portfolio.md
  - index.md
 
 # Build settings
