@@ -5,11 +5,12 @@ permalink: /portfolio/
 ---
 
 This consists:
-* timeline-based AI/ML/DL projects that I have worked on
+* My timeline-based AI/ML/DL projects that I have worked on
 * My publications
-* Research papers that I have read and found interesting/practical
-* Others
-
+* Research papers that I have read and found interesting/practical (comments included)
+* My blogs and presentations
+* Interview prep
+* AI courses I took
 ---
 
 ## Projects
@@ -59,15 +60,15 @@ This consists:
   - Abstract: Electroencephalography (EEG) is a non-invasive method of measuring cortical activities in association to speech communication. Recent studies have shown that EEG at multiple channels across head scalps were colinearly entrained to speech envelope. They were able to reconstruct speech envelope from EEG across scalp by using ridge regression. However, the predicted speech envelopes reconstructed by this linear model approach did not yield a high correlation when compared with the original speech envelopes. The outcome of those studies inspired us to explore a non-linear alternative with Deep Learning in reconstructing speech envelope from EEG. We proposed and developed an Encoder-Decoder model based on Convolutional (CONV) and Long-Short-Term-Memory (LSTM) layers to non-linearly reconstruct speech envelope from EEG. Our finding showed that correlation between the original speech envelope and the predicted speech envelope reconstructed with our model yielded a much higher value than the equivalence reconstructed with a linear model and a single-layer LSTM model. Our Encoder-Decoder model outperformed the regularized linear regression and the single-layer LSTM model with 134% and 21% improvement in correlation.
   - Status: [Preprint](https://quocdat32461997.github.io/assets/linear_and_nonlinear_reconstruction_of_speech_envelope_from_eeg.pdf)
 - [Depression Detection: Text Augmentation for Robustness to Label Noise in Self-reprots](https://github.com/quocdat32461997/quocdat32461997.github.io/blob/master/assets/ACL_IJCNLP_2021___Final.pdf)
-   - Authors: **Dat Quoc Ngo**, Aninda Bhattacharjee, Tannistha Maiti, Tarry Singh, Jie Mei
-   - Affiliation: Visiting AI Researcher at deepkapha.ai
-   - Abstract: With a high prevalence in both high and low-middle-income countries, depression is re- garded as one of the most common mental disorders around the globe, placing heavy burdens at a societal level. Depression severely impairs the daily functioning and quality of life of individuals of different ages, and may eventually lead to self-harm and suicide. In recent years, advancements have emerged in the fields of deep learning and natural language understanding, leading to improved detection and assessment of depression using methods including convolutional neural networks (CNNs) and bidirectional encoder representation from transformers (BERT). Nevertheless, previous work focused on data ac- quired through brain functional magnetic resonance imaging (fMRI), clinical screening or interviews, thus required labeling by domain experts. Therefore, in this study, we used the Reddit Self-reported Depression Diagnosis dataset, an uncurated text-based dataset, to enable detection of depression using easily accessible data. To reduce the negative impact of label noise on the performance of transformers-based classification, we proposed two data augmentation approaches, i.e., Negative Embedding and Empathy for BERT and DistilBERT, to exploit the usage of pronouns and affective, depression-related words in the dataset. As a result, the use of Negative Embedding improves the accuracy of the model by 31% compared with a baseline BERT and a DistilBERT, whereas Empathy underperforms baseline methods by 21%. Taken together, we argue that the detection of depression can be performed with high accuracy on datasets with label noise using various augmentation approaches and BERT.
-   - Status: [in submission](https://github.com/quocdat32461997/quocdat32461997.github.io/blob/master/assets/ACL_IJCNLP_2021___Final.pdf)
+  - Authors: **Dat Quoc Ngo**, Aninda Bhattacharjee, Tannistha Maiti, Tarry Singh, Jie Mei
+  - Affiliation: Visiting AI Researcher at deepkapha.ai
+  - Abstract: With a high prevalence in both high and low-middle-income countries, depression is re- garded as one of the most common mental disorders around the globe, placing heavy burdens at a societal level. Depression severely impairs the daily functioning and quality of life of individuals of different ages, and may eventually lead to self-harm and suicide. In recent years, advancements have emerged in the fields of deep learning and natural language understanding, leading to improved detection and assessment of depression using methods including convolutional neural networks (CNNs) and bidirectional encoder representation from transformers (BERT). Nevertheless, previous work focused on data ac- quired through brain functional magnetic resonance imaging (fMRI), clinical screening or interviews, thus required labeling by domain experts. Therefore, in this study, we used the Reddit Self-reported Depression Diagnosis dataset, an uncurated text-based dataset, to enable detection of depression using easily accessible data. To reduce the negative impact of label noise on the performance of transformers-based classification, we proposed two data augmentation approaches, i.e., Negative Embedding and Empathy for BERT and DistilBERT, to exploit the usage of pronouns and affective, depression-related words in the dataset. As a result, the use of Negative Embedding improves the accuracy of the model by 31% compared with a baseline BERT and a DistilBERT, whereas Empathy underperforms baseline methods by 21%. Taken together, we argue that the detection of depression can be performed with high accuracy on datasets with label noise using various augmentation approaches and BERT.
+  - Status: [in submission](https://github.com/quocdat32461997/quocdat32461997.github.io/blob/master/assets/ACL_IJCNLP_2021___Final.pdf)
 
 
 ---
 
-## Papers that I have read and found useful
+## Papers that I have read and found useful (comments included)
 ### - Computer Vision
 - [You Look Only ONce](https://arxiv.org/abs/1506.02640)
     - A unified Object Detection model consisting of DarkNet (Deep CNN) and Non-Max-Suppression at the output layer to group multiple bounding-boxes for the final object. Multi losses (object loss, class loss, and position loss) were computed.
@@ -97,7 +98,16 @@ This consists:
 - [DistilBERT, a distilled version of BERT: smaller, faster, cheaper, and lighter](https://arxiv.org/abs/1910.01108v1)
     - A smaller version of BERT with equivalent performance but less number of layers (6 in Distil BERT and 12 in BERT)
     - More practical for real-time inference
-
+- [COMET: Commonsense Transformers for Automatic Knowledge Graph Construction](https://arxiv.org/pdf/1906.05317.pdf)
+    - A Transformer-based model to generate/complete knowledge graphs.
+    - Input encoding:
+      - Consists of a 3-element tuple {subject, relation, object}
+      - Unlike BERT w/ 3 embedings, COMET has 2 embeddings: tokens and positions
+    - Architecture is similar to BERT, except the output layer of Transformer
+- [Unsupervised Commonsense Question Answering with Self-Talk](https://arxiv.org/pdf/2004.05483.pdf)
+    - To be added
+- [Visual Question Answering To-read-list](https://github.com/zixuwang1996/VQA-reading-list)
+    - Collection of to-read publications regarding Visual Question Answering
 ### - Others
 #### Label Noise
 - [Label Noise Types and Their Effects on Deep
@@ -112,3 +122,12 @@ Learning](https://arxiv.org/pdf/2003.10471.pdf)
 - [Install Tensorflow on AMD GPUs](https://medium.com/analytics-vidhya/install-tensorflow-2-for-amd-gpus-87e8d7aeb812)
 - [Blogs on Deep Learning](https://datngo-79115.medium.com/)
 - [explore ml @DSC-UTD](https://github.com/DSC-UTDallas/explore-ml) - workshops over fundamental machine learning algorithms
+
+
+## My machine-learning-engineer interview prep
+- [ML Engineer Notes](https://docs.google.com/document/d/1mo1edEotJDpvT4fxL8-_VFBwS0e4OHqLnxd5I0yy-ps/edit?usp=sharing)
+
+## AI Courses I took
+- [Natural Language Processing](./nlp-course)
+- [Machine Learning](./ml-course)
+- [Information Retrieval](./ir-course)
