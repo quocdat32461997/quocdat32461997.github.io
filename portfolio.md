@@ -79,7 +79,7 @@ This consists:
     - Introduction to loss functions (MGE and MixGE) for Super-Image-Super-Resolution problems using U-NET.
     - MSE, a common loss function is limited to learn errors based on pixel values, not the object curve (aka gradient error)
     - To solve gradient error introduced by Super-Resolution, Mean-Gradient-Error (MGE) utilizes Sobel operator to shapren curves of objects in predicted and true images which are then computed into difference-square
-    - 
+
 ### - Natural Language Processing
 - [Bidirectional LSTM-CRF Models for Sequence Tagging](https://arxiv.org/pdf/1508.01991v1.pdf)
     - Implementation of BiLSTM-CRF for Sequence Tagging tasks.
@@ -109,7 +109,7 @@ This consists:
     - To be added
 - [Visual Question Answering To-read-list](https://github.com/zixuwang1996/VQA-reading-list)
     - Collection of to-read publications regarding Visual Question Answering
-    - 
+
 ### - Others
 #### Label Noise
 - [Label Noise Types and Their Effects on Deep
