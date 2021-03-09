@@ -11,7 +11,7 @@ This consists:
 * [Research papers that I have read and found interesting/practical](#Papers-that-I-have-read-and-found-useful)
 * [My blogs/presentations/contributions](#Blogs-&-workshops)
 * [Interview prep](#My-machine-learning-engineer-interview-prep)
-* [What I have learnt](#What-I-have-learnt)\
+* [What I have learnt](#What-I-have-learnt)
 
 ---
 
