@@ -7,36 +7,35 @@ permalink: /about/
 ## Info & Contacts
 * Name: Dat (Eric) Quoc Ngo
 * Email: quocdat32461997@yahoo.com
+* Github: https://github.com/quocdat32461997
+* Twitter: @DatQuocNgo
+* Resume: [here](https://docs.google.com/document/d/1CF6nI70QY4MqLXdwOUBigTZUhcnYS-l9/edit?usp=drive_web&ouid=103238216527784296028&rtpof=true)
 
 ## Skills
-* Languages: Python, MATLAB, Java, Functional Programming
-* AI/ML: Tensorflow/Keras/Serving, Scikit-learn, Numpy, Pandas, OpenCV, NLTK, Statsmodels, HugeCTR
-* Cloud: AWS SageMaker/RedShift/RDS/S3/EC2, 
-* Tools: Docker, Kubernetes, Terraform, Flask, SQL, Git/Github/Gitlab
-* Big Data tools: PySpark, NVTabbular (GPU-based)
+&	Proficient: 	Python, Tensorflow, Numpy, Pandas, Git/Github, Linux/Ubuntu/MacOS
+*	CV:	OpenCV, CNN (ResNet, VGG), Detection/Segmentation (YOLO, Faster/Mask RCNN)
+*	NLP: 	RNN/LSTM/GRU/Transformer (BERT), NLTK, StanfordNLP
+*	Familiar:	Scikit-learn, PySpark, NVTabular, AWS (S3, EC2, Redshift, SageMaker, RDS), Flask, Docker, SQL, HTML/CSS
 * Speaking: English & Vietnamese fluently, and elementary Korean
 
-## AI/ML
-* Experience with CNN, RNN/LSTM, MLP
-* CNN: YOLOv3, Mask-RCNN, VGG/ResNet
-* NLP/NLU: BiLSTM-CRF (NER), BERT
-* Graph models: Graph Convolutional Networks (GCN), Graph Attention Networks (GAN)
-* Sparse models: DeepFM, Factorization Machines
-
 ## Work Experience
-* Visiting AI Researcher at [deepkapha.ai](https://deepkapha.ai/)
-* Full-Stack Developer Intern at [Surfboard One](https://www.linkedin.com/company/surfboardco/)
-* Full-Stack Developer Intern at Quench How
-* Research Assistant at Auditory-Perception-Engineering-Laboratory, Uni. of Texas at Dallas
-* Math & Comp. Sci. Tutor at Uni. of Texas at Dallas
+* Visiting AI Researcher at [deepkapha.ai](https://deepkapha.ai/), Aug 2020 - Present
+* Teaching Assistant at [LiveAI](https://liveai.eu/), Aug 2020 - Present
+* Full-Stack Developer Intern at [Surfboard One](https://www.linkedin.com/company/surfboardco/), Mar - Oct 2020
+* Full-Stack Developer Intern at Quench How, June - Aug 2019
+* Research Assistant at Auditory-Perception-Engineering-Laboratory, Uni. of Texas at Dallas, May 2018 - Dec 2019
+* Math & Comp. Sci. Tutor at Uni. of Texas at Dallas, Aug 2018 - Mar 2020
 
 ## Education
+* M.S. in Computer Science - Intelligent System at University of Texas at Dallas, Jan 2021 - May 2022
 * B.S. in Computer Science at Univeristy of Texas at Dallas, 2018-2020
 * A.S. in Computer Science at Collin College, 2016 - 2020
-* B.A. in Business Management at University of Economics in Ho Chi Minh City
 
 ## Award & Activities
 * [My tech blogs on Medium](https://medium.com/@datngo_79115)
+* [Technical Coordinator at AI Society]()
 * [Technichal Officer at UTDallas Developer Student Club (DSC)](https://dsc.community.dev/university-of-texas-at-dallas/)
-* 2019 Undergraduate Research Award
+* 2019 Johnson Undergraduate Research Award
+* 2019 1st Place at UTD HealthCareAI Hackathon
+* 2018 Best Desk to Bedside Award at Med U-Hackathon at UT Southwestern
 * 2017 Math Excellence Award
