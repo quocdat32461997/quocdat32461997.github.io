@@ -12,6 +12,7 @@ This consists:
 * [My blogs/presentations/contributions](#Blogs-&-workshops)
 * [Interview prep](#My-machine-learning-engineer-interview-prep)
 * [What I have learnt](#What-I-have-learnt)
+
 ---
 
 ## Projects
