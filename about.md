@@ -12,11 +12,9 @@ permalink: /about/
 * Resume: [here](https://docs.google.com/document/d/1CF6nI70QY4MqLXdwOUBigTZUhcnYS-l9/edit?usp=drive_web&ouid=103238216527784296028&rtpof=true)
 
 ## Skills
-&	Proficient: 	Python, Tensorflow, Numpy, Pandas, Git/Github, Linux/Ubuntu/MacOS
-*	CV:	OpenCV, CNN (ResNet, VGG), Detection/Segmentation (YOLO, Faster/Mask RCNN)
-*	NLP: 	RNN/LSTM/GRU/Transformer (BERT), NLTK, StanfordNLP
-*	Familiar:	Scikit-learn, PySpark, NVTabular, AWS (S3, EC2, Redshift, SageMaker, RDS), Flask, Docker, SQL, HTML/CSS
-* Speaking: English & Vietnamese fluently, and elementary Korean
+*	Python3, Bash, SQL, Flask, HTML & CSS, Git, AWS (EC2, Redshift, RDS, SageMaker)
+*	TensorFlow/Serving, HuggingFace, PySpark, Merlin (RecSys framework), scikit-learn, NumPy, Pandas
+* Speaking English & Vietnamese fluently, and elementary Korean
 
 ## Work Experience
 * Visiting AI Researcher at [deepkapha.ai](https://deepkapha.ai/), Aug 2020 - Present
