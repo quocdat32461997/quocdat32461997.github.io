@@ -26,6 +26,6 @@ classification avoids the challenge of softmax classification: *huge of number o
   - [GPT3 by OpenAI](https://arxiv.org/pdf/2005.14165.pdf) is pretrained and evaluated on few-shot and zero-shot settings.
   Look at the below figure, instead of fine-tuning, GPT3 is prompted for downstream tasks (e.g. translation) given
   data attributes in form of *description of task* and *few complete examples*.  
-    ![Few-Shot Leaerning Evaluationo Settings in GPT-3](./assets/few-shot-learning-gpt3.png)
+    ![Few-Shot Leaerning Evaluationo Settings in GPT-3](/assets/few-shot-learning-gpt3.png)
   - [Natural-Language-Inference-based for Text Classification by Yin et al.](https://huggingface.co/facebook/bart-large-mnli)
   take the concatenation of text and label (viewed as data attributes) as input and performs the entailment-like text classification. 
