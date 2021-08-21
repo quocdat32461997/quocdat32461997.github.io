@@ -5,7 +5,6 @@ permalink: /portfolio/
 ---
 
 This consists:
-
 - [My timeline-based AI/ML/DL projects](#Projects)
 - [My blogs/presentations/contributions](#Blogs-&-Workshops)
 - [My publications](#Publications)
@@ -13,7 +12,8 @@ This consists:
 - [Interview prep](#Interview-Prep)
 - [What I have learnt](#What-I-have-learnt)
 
-**Latest version** is at [here](https://kind-ginger-256.notion.site/machine-learning-portfolio-448355abb41b4b728989b5249f1dffa5)
+Latest version is at [here](https://kind-ginger-256.notion.site/machine-learning-portfolio-448355abb41b4b728989b5249f1dffa5)
+
 ---
 
 ## Projects
