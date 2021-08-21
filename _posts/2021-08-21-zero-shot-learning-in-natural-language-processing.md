@@ -14,9 +14,10 @@ to during **2. inference stage** for unseen labels [1]. Hence, 0S is done in 2 s
 ### Zero-Shot Learning in NLP
 Speaking of the *0S* applications in NLP, *0S* has been recently formulated as:
 - **Embedding approach** that [Chaudhary](https://amitness.com/2020/05/zero-shot-text-classification/) discusses using NN architectures
-(e.g. Fully-Connected, LSTM) to embed both text and label (also in text format) as data attributes to perform *binary classification to decide
+(e.g. Fully-Connected, LSTM) to embed both text and label (also in text format) as data attributes (figure below)to perform *binary classification to decide
 if label entails text* [2, 3]. Even though the concatenation of text and label embedding is not new, the entailment-like binary
 classification avoids the challenge of softmax classification: *huge of number of classes*.
+![0S-embedding-approach](/assets/0s-embedding.png)
 
 
 - **Transfer Learning** that utilizes pretrained Transformer-based language models
@@ -26,7 +27,7 @@ classification avoids the challenge of softmax classification: *huge of number o
   data attributes in form of *description of task* and *few complete examples*.  
     ![Few-Shot Leaerning Evaluationo Settings in GPT-3](/assets/few-shot-learning-gpt3.png)
   - [Natural-Language-Inference-based for Text Classification by Yin et al.](https://huggingface.co/facebook/bart-large-mnli)
-  take the concatenation of text and label (viewed as data attributes) as input and performs the entailment-like text classification. 
+  takes the concatenation of text and label (viewed as data attributes) as input and performs the entailment-like text classification. 
 
 ### References
 * [1] - [Zero-Shot Learning: Can you classify an object without seeing it before?](https://www.kdnuggets.com/2021/04/zero-shot-learning.html)
