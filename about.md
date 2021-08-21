@@ -7,7 +7,7 @@ permalink: /about/
 Hey guys, I am Dat (Eric) Quoc Ngo, a Master student in Intelligent System at University of Texas - Dallas.
 According to my elementary teachers, I was not good at foreign languages.
 Hence, I dedicate myself to solve language and text problems. Also, my first name
-is pronounced like **dark with rk** or **dä**. 
+is pronounced like **dark withoout rk** or **dä**. 
 
 ## Research interests
 * Information Extraction
