@@ -2,8 +2,6 @@
 layout: post
 ---
 
-# Zero-Shot (0S) Learning in Natural Language Processing
-
 ## What is Zero-Shot Learning?
 > If you don't know something, you can refer it to familar ones for guessing
 
