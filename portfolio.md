@@ -13,6 +13,7 @@ This consists:
 - [Interview prep](#Interview-Prep)
 - [What I have learnt](#What-I-have-learnt)
 
+**Latest version** is at [here](https://kind-ginger-256.notion.site/machine-learning-portfolio-448355abb41b4b728989b5249f1dffa5)
 ---
 
 ## Projects
