@@ -182,7 +182,9 @@ Learning](https://arxiv.org/pdf/2003.10471.pdf)
 
 Graduate courses lised only
 
-- [Natural Language Processing](/nlp-course)
-- [Machine Learning](/ml-course)
-- [Information Retrieval](/ir-course)
+- [Natural Language Processing](https://github.com/quocdat32461997/machine-learning-portfolio/tree/master/nlp-course)
+- [Machine Learning](https://github.com/quocdat32461997/machine-learning-portfolio/tree/master/ml-course)
+- [Information Retrieval](https://github.com/quocdat32461997/machine-learning-portfolio/tree/master/ir-course)
+- [Artificial Intelligence](https://github.com/quocdat32461997/machine-learning-portfolio/tree/master/ai-course)
+- [AI in Security](https://github.com/quocdat32461997/machine-learning-portfolio/tree/master/ai-security-course)
 - [Machine Learning System Design](https://docs.google.com/document/d/1yOJagVolemWpgms_TkBlEi866qLi7p76m4aMjkPcU6Q/edit?usp=sharing)
