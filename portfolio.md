@@ -61,9 +61,9 @@ Latest version is at [here](https://kind-ginger-256.notion.site/machine-learning
 
 ## Blogs and Workshops
 
-[Model Compression](https://www.notion.so/Model-Compression-ed06ffecfe0b4942936923c86453552b)
+[Model Compression](https://kind-ginger-256.notion.site/Model-Compression-ed06ffecfe0b4942936923c86453552b)
 
-[Machine Learning with Google Cloud Platform (GCP)](/gcp)
+[Machine Learning with Google Cloud Platform (GCP)](https://github.com/quocdat32461997/machine-learning-portfolio/tree/master/gcp)
 
 [Install Tensorflow on AMD GPUs](https://medium.com/analytics-vidhya/install-tensorflow-2-for-amd-gpus-87e8d7aeb812)
 
@@ -77,9 +77,9 @@ Latest version is at [here](https://kind-ginger-256.notion.site/machine-learning
 
 ---
 
-[Zero-Shot Learning in NLP](https://www.notion.so/Zero-Shot-Learning-in-NLP-2f0f65ec06dc4dc589f23cc8856df57f)
+[Zero-Shot Learning in NLP](https://kind-ginger-256.notion.site/Zero-Shot-Learning-in-NLP-2f0f65ec06dc4dc589f23cc8856df57f)
 
-[Model optimization](https://www.notion.so/Model-optimization-4eaea05ebf26415780f7a528f3138bf4)
+[Model optimization](https://kind-ginger-256.notion.site/Model-optimization-4eaea05ebf26415780f7a528f3138bf4)
 
 ## Publications
 
