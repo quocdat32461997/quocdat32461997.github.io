@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img align="left" width="125" height="125" margin="10" src="/assets/dat_head_shot.png">
+<img align="left" width="150" height="150" style="margin-right: 10px;" src="/assets/dat_head_shot.png">
 
 Hey guys, I am Dat (Eric) Quoc Ngo, a Master student in Intelligent System at University of Texas - Dallas.
 Currently, I am conducting research on Text and Graph Generation under supervision of Prof. Jessica Ouyang.
