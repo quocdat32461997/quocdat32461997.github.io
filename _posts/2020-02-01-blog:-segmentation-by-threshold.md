@@ -2,8 +2,6 @@
 layout: post
 ---
 
-# Segmentation by threshold
-
 Before Machine Learning and Deep Learning, Comp. Vision scientists utilize Image Procesisng algorithms to segment objects or background by their color strength value by projecting pixel values onto histogram.
 This blog is to introduce the **Segmentation by threshold**.
 

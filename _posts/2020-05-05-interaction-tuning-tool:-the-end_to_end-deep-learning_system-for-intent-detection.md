@@ -3,7 +3,7 @@ layout: post
 ---
 
 ## Time
-Spring 2020 @University of Texas at Dalls
+Spring 2020 @University of Texas at Dallas
 
 ## Members
 My team of 6 Senior CS/SE students in Senior Project course:
@@ -23,7 +23,7 @@ My team of 6 Senior CS/SE students in Senior Project course:
 * An end-to-end web tool to automate and reduce the manual intent-labeling workload of scientists and engineers
 * Web tool requires zero coding skills
 * Core is a hybrid and Attention-based model to detect natural intents from text (not pre-defined intents as Google DiagFlow) with accuracy 70%
-
+* Post: [here](https://cpb-us-e2.wpmucdn.com/sites.utdallas.edu/dist/0/381/files/2021/07/Proj-1003-Concentrix-Interaction-Tunning-Tool.pdf)
 
 ## Tech in use:
 * Frontend: VueJS

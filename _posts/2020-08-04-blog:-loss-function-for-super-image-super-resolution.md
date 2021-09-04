@@ -1,10 +1,7 @@
 ---
 layout: post
 ---
-
-# Loss Function for Super-Image-Super-Resolution (SISR)
-
-In SISR, Autoencoder and U-Net are heavily used; however, they are well-known for difficulties in training to convergence. The choice of loss function plays an important role in guiding models to optimum. Today, I introduce 2 loss functions for Single-Image-Super-Resolution that is based on Convolution and Sobel operator:
+In Super-Image-Super-Resolution (SISR), Autoencoder and U-Net are heavily used; however, they are well-known for difficulties in training to convergence. The choice of loss function plays an important role in guiding models to optimum. Today, I introduce 2 loss functions for Single-Image-Super-Resolution that is based on Convolution and Sobel operator:
 * Mean Squared Error (MSE)
 * Mean Gradient Error (MGE)
 

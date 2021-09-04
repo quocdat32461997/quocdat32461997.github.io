@@ -1,9 +1,6 @@
 ---
 layout: post
 ---
-
-# [NER](https://github.com/quocdat32461997/NER)
-
 ![img](/assets/bilstm-crf-network.png)
 
 The end-to-end implementation of BiLSTM-CRF model for Name Entity Recognition based on the following paper: [Bidirectional LSTM-CRF Models for Sequence Tagging](https://arxiv.org/abs/1508.01991).

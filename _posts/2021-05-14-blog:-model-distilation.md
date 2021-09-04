@@ -2,8 +2,6 @@
 layout: post
 ---
 
-# Model Distillation
-
 ## mutual leanring
 ## teacher-student learning
 Hinton et al. 2015
