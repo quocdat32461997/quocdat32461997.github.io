@@ -3,19 +3,24 @@ layout: page
 title: About
 permalink: /about/
 ---
-<img align="left" width="100" height="100" src="/assets/dat_head_shot.png">
+
+<img align="left" width="125" height="125" margin="10" src="/assets/dat_head_shot.png">
 
 Hey guys, I am Dat (Eric) Quoc Ngo, a Master student in Intelligent System at University of Texas - Dallas.
-According to my elementary teachers, I was not good at foreign languages.
-Hence, I dedicate myself to solve language and text problems. Also, my first name
-is pronounced **dark without rk**. 
-
-![](assets/dat_head_shot.png)
+Currently, I am conducting research on Text and Graph Generation under supervision of Prof. Jessica Ouyang.
+Before that, I gained my B.S. in Computer Science in UT-Dallas. My elementary English teachers told that
+I could not speak and use foreign languages fluently. Hence, I dedicate my time to solve language and text
+problems. Also, please address by **Eric** since my first name is pronounced similar to *that* that I am always confused if people are calling me or
+just simply saying *that* word.
 
 ## Research interests
 * Natural Language Processing/Understanding/Generation
 * Graph Neural Networks
 * Information Extraction
+
+## Activities & Services
+* At [AI Society (UT Dalls)](https://aisutd.org), mentor folks on Deep Learning and NLP projects
+* Learning languages: Korean
 
 ## Contacts
 * Email: [dat.ngo3246@gmail.com](mailto:dat.ngo3246@gmail.com)
