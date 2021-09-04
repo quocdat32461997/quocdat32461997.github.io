@@ -56,7 +56,9 @@ many-class classification. This approach employs the
   - [Natural-Language-Inference-based for Text Classification by Yin et al.](https://huggingface.co/facebook/bart-large-mnli)
     takes the concatenation of text and label (viewed as class-class similarity) as input and performs the entailment-like 
     text classification.
-    ![hypothesis-format](/assets/hypothesis-format.png))
+  
+    ![hypothesis-format](/assets/hypothesis-format.png)
+  
     Look at the figure above, to follow **class-class similarity**, labels are converted into **hypothesis format** such
     as "this _text_ is about _?_". The _?_ is the additional class (e.g. sport), _text_ is any text to be classified (e.g.. World Cup 2018 was organized in Russia).
 ---
