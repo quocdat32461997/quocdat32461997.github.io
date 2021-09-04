@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-<img align="left" width="100" height="100" src="assets/dat_head_shot.png">
+<img align="left" width="100" height="100" src="/assets/dat_head_shot.png">
 
 Hey guys, I am Dat (Eric) Quoc Ngo, a Master student in Intelligent System at University of Texas - Dallas.
 According to my elementary teachers, I was not good at foreign languages.
