@@ -27,4 +27,4 @@ just simply saying *that* word.
 * Portfolio: [datqngo.me](datqngo.me)
 * Linkedin: [datquocngo](https://www.linkedin.com/in/datquocngo/)
 * Twitter: [@DatQuocNgo](https://twitter.com/DatQuocNgo)
-* Resume: [here](https://docs.google.com/document/d/1CF6nI70QY4MqLXdwOUBigTZUhcnYS-l9/edit?usp=drive_web&ouid=103238216527784296028&rtpof=true)
+* Resume: [here](https://docs.google.com/document/d/1YCcqCXW5z3EjiIBQg1x4XaIw8mvjkniP/edit?usp=sharing&ouid=116313092587135272011&rtpof=true&sd=true)
