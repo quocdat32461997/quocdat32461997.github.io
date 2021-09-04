@@ -1,7 +1,5 @@
 # Zero-shot learning in NLP
 
-# What is Zero-shot Learning?
-
 > If you don't know something, you can refer it to familiar ones for guessing
 
 The 0S setting maps additional data attributes into high-dimensional features during **1. training stage** which could then be referred to during **2. inference stage** for unseen labels [1]. Hence, 0S is done in 2 stages:
