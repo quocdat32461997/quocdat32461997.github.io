@@ -12,7 +12,7 @@ permalink: /research/
 - Depression Detection: Text Augmentation for Robustness to Label Noise in Self-reprots
   - Authors: **Dat Quoc Ngo**, Aninda Bhattacharjee, Tannistha Maiti, Tarry Singh, Jie Mei
   - Affiliation: Visiting AI Researcher @deepkapha.ai
-  - Status: [in submission](https://github.com/quocdat32461997/quocdat32461997.github.io/blob/master/assets/ACL_IJCNLP_2021___Final.pdf)
+  - Status: [preprint](https://github.com/quocdat32461997/quocdat32461997.github.io/blob/master/assets/depressio_augmentation_for_noisy_labels.pdf)
 
 ---
 
