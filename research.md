@@ -5,9 +5,13 @@ permalink: /research/
 ---
 
 ### 2021
+- Master Thesis: Graph-based Controllable Molecular Property Prediction
+  - Authors: TBD
+  - Affiliation: Graduate Research Assistant @OuyangLab-UTDallas
+  - Status: to be published
 - Depression Detection: Text Augmentation for Robustness to Label Noise in Self-reprots
   - Authors: **Dat Quoc Ngo**, Aninda Bhattacharjee, Tannistha Maiti, Tarry Singh, Jie Mei
-  - Affiliation: Visiting AI Researcher at deepkapha.ai
+  - Affiliation: Visiting AI Researcher @deepkapha.ai
   - Status: [in submission](https://github.com/quocdat32461997/quocdat32461997.github.io/blob/master/assets/ACL_IJCNLP_2021___Final.pdf)
 
 ---
