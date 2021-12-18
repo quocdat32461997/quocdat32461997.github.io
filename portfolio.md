@@ -56,7 +56,10 @@ Latest version is at [here](https://kind-ginger-256.notion.site/machine-learning
     - Developed a Python program to extract template-based information by designing rules and utilizing Dependency Parsing, Name Entities, and POS tags.
 - [Find-unicorns (search engine)](https://github.com/quocdat32461997/find_unicorns)
     - Developed a search engine by crawling & scrapping (>100k links), implementing ranking algorithms (TF-IDF, HITS, PageRank).
-
+- [Attention2Log](https://github.com/quocdat32461997/attention2log)
+    - An experimental study of Transformers for Log-Key-based Anomaly Detection
+- [FRL](https://github.com/quocdat32461997/FRL)
+    - Neural Collaborative Filtering + GraphNN for Interactive Recommendation System
 ---
 
 ## Blogs and Workshops
