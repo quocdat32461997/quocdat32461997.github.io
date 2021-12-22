@@ -60,6 +60,7 @@ Latest version is at [here](https://kind-ginger-256.notion.site/machine-learning
     - An experimental study of Transformers for Log-Key-based Anomaly Detection
 - [FRL](https://github.com/quocdat32461997/FRL)
     - Neural Collaborative Filtering + GraphNN for Interactive Recommendation System
+
 ---
 
 ## Blogs and Workshops
