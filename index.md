@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /about/
+permalink: /index/
 ---
 
 <img align="left" width="150" height="150" style="margin-right: 10px;" src="/assets/dat_head_shot.png">
@@ -16,6 +16,17 @@ if people are calling me or just simply saying *that* word.
 * Natural Language Processing/Understanding/Generation
 * Graph Neural Networks
 * Machine/Deep Learning
+
+## Recently
+* May 2022  - Software Enggineer Intern @Meta, Assistant Team
+* July 2022 - [Accepted paper](https://link.springer.com/chapter/10.1007/978-3-030-97054-3_6) to Digitall Humanism Book
+* Jan 2022  - ML Engineer Intern @7-Eleven, Data Science Team
+* Aug 2021  - Research Assistant @ouyang-lab, UTDallas
+* June 2021 - Research Intern @SamsungReseaerchAmerica, Bixby Labs
+* Oct 2020  - Research Intern @Deepkapha.ai
+* Mar 2020  - Software Engineer Intern @SurfBoardOne
+* Mar 2020  - [Accepted paper](https://ieeexplore.ieee.org/document/8717078) to Conference on 2019 Neural Engineering (NER)
+* May 2019  - Research Assistant @APE-lab, UTDallas
 
 ## Contacts
 * Email: [dat.ngo3246@gmail.com](mailto:dat.ngo3246@gmail.com)
